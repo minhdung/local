@@ -1,4 +1,4 @@
-﻿# encoding: utf-8
+# encoding: utf-8
 # This file contains content for the client portion of Discourse, sent out
 # to the Javascript app.
 #
@@ -78,13 +78,13 @@ en:
       google+: 'Google+でこのリンクを共有'
       email: 'メールでこのリンクを送る'
 
-    edit: 'このトピックのタイトルとカテゴリを編集'
-    not_implemented: "申し訳ありませんが、その機能はまだ実装されていない。"
-    no_value: "ノー"
-    yes_value: "イエス"
+    edit: 'edit the title and category of this topic'
+    not_implemented: "That feature hasn't been implemented yet, sorry!"
+    no_value: "No"
+    yes_value: "Yes"
     of_value: "of"
-    generic_error: "申し訳ありませんが、エラーが発生した。"
-    generic_error_with_reason: "エラーが発生した: %{error}"
+    generic_error: "Sorry, an error has occurred."
+    generic_error_with_reason: "An error occured: %{error}"
     log_in: "ログイン"
     age: "年齢"
     last_post: "最後の記事"
@@ -93,7 +93,7 @@ en:
     show_more: "もっと表示"
     links: リンク
     faq: "FAQ"
-    privacy_policy: "個人情報保護方針"
+    privacy_policy: "Privacy Policy"
     you: "あなた"
     or: "or"
     now: "ちょうど今"
@@ -118,10 +118,10 @@ en:
       title: "トピックス推奨"
 
     bookmarks:
-      not_logged_in: "申し訳ありませんが、ブックマーク記事にまだログインしない"
-      created: "この記事をブックマークした。"
-      not_bookmarked: "この記事を読んだ。ブックマークのためクリックしたください。"
-      last_read: "これは最新読んだ記事で、ブックマークのためクリックしたください。"
+      not_logged_in: "Sorry, you must be logged in to bookmark posts."
+      created: "You've bookmarked this post."
+      not_bookmarked: "You've read this post; click to bookmark it."
+      last_read: "This is the last post you've read; click to bookmark it."
 
     new_topics_inserted: "{{count}} 新しいトピック."
     show_new_topics: "見せるために、クリックしてください."
@@ -129,31 +129,31 @@ en:
     cancel: "キャンセル"
 
     save: "変更を保存"
-    saving: "保存して..."
-    saved: "保存した!"
+    saving: "Saving..."
+    saved: "Saved!"
 
     choose_topic:
-      none_found: "トピックが見つからない。"
+      none_found: "トピックが見つかりませんでした."
       title:
         search: "名前、URLまたはIDでトピックを検索:"
-        placeholder: "ここにトピックのタイトルを入力"
+        placeholder: "ここにトピックのタイトルを入力します"
 
     user_action:
       user_posted_topic: "<a href='{{userUrl}}'>{{user}}</a> が  <a href='{{topicUrl}}'>ピック</a> を 投稿"
       you_posted_topic: "<a href='{{userUrl}}'>あなた</a> は <a href='{{topicUrl}}'>ピック</a>  を 投稿"
-      user_replied_to_post: "<a href='{{userUrl}}'>{{user}}</a> が　<a href='{{postUrl}}'>{{post_number}}</a>　へ返信"
+      user_replied_to_post: "<a href='{{userUrl}}'>{{user}}</a> replied to <a href='{{postUrl}}'>{{post_number}}</a>"
       you_replied_to_post: "<a href='{{userUrl}}'>あなた</a> は  <a href='{{postUrl}}'>{{post_number}}</a> を 投稿"
-      user_replied_to_topic: "<a href='{{userUrl}}'>{{user}}</a> が<a href='{{topicUrl}}'>the topic</a>　に答え"
+      user_replied_to_topic: "<a href='{{userUrl}}'>{{user}}</a> replied to <a href='{{topicUrl}}'>the topic</a>"
       you_replied_to_topic: "<a href='{{userUrl}}'>あなた</a> が<a href='{{topicUrl}}'>トピック</a> に答え"
 
-      user_mentioned_user: "<a href='{{user1Url}}'>{{user}}</a> が <a href='{{user2Url}}'>{{another_user}}</a>に言及"
-      user_mentioned_you: "<a href='{{user1Url}}'>{{user}}</a> が <a href='{{user2Url}}'>あなた</a>に言及"
-      you_mentioned_user: "<a href='{{user1Url}}'>あなた</a> が <a href='{{user2Url}}'>{{user}}</a>に言及"
+      user_mentioned_user: "<a href='{{user1Url}}'>{{user}}</a> mentioned <a href='{{user2Url}}'>{{another_user}}</a>"
+      user_mentioned_you: "<a href='{{user1Url}}'>{{user}}</a> mentioned <a href='{{user2Url}}'>you</a>"
+      you_mentioned_user: "<a href='{{user1Url}}'>You</a> mentioned <a href='{{user2Url}}'>{{user}}</a>"
 
-      posted_by_user: " <a href='{{userUrl}}'>{{user}}</a>の投稿"
-      posted_by_you: " <a href='{{userUrl}}'>you</a>の投稿"
-      sent_by_user: " <a href='{{userUrl}}'>{{user}}</a>の送信"
-      sent_by_you: " <a href='{{userUrl}}'>you</a>の送信"
+      posted_by_user: "Posted by <a href='{{userUrl}}'>{{user}}</a>"
+      posted_by_you: "Posted by <a href='{{userUrl}}'>you</a>"
+      sent_by_user: "Sent by <a href='{{userUrl}}'>{{user}}</a>"
+      sent_by_you: "Sent by <a href='{{userUrl}}'>you</a>"
 
     user_action_groups:
       "1": "好きな"
@@ -183,12 +183,12 @@ en:
       invited_by: "招待"
       trust_level: "信頼 レベル"
       notifications: "通知"
-      dynamic_favicon: " faviconに受信メッセージの通知を表示"
-      external_links_in_new_tab: "内部リンクを新しいタブで開く"
-      enable_quoting: "ハイライトされたテキストのため​​返信を引用できる"
+      dynamic_favicon: "Show incoming message notifications on favicon"
+      external_links_in_new_tab: "Open all external links in a new tab"
+      enable_quoting: "Enable quote reply for highlighted text"
       change: "変更"
-      moderator: "{{user}}  は   モデレーター   である"
-      admin: "{{user}} は   アドミン   である"
+      moderator: "{{user}}  は   モデレーター   です"
+      admin: "{{user}} は   アドミン   です"
 
       change_password:
         success: "(電子メールが送信)"
@@ -200,42 +200,42 @@ en:
 
       change_username:
         title: "ユーザー名を変更"
-        confirm: "ユーザー名を変更する場合、すべての記事の引用及び@名前言及が切断されます。ユーザー名を変更しますか？"
-        taken: "申し訳ありませんが、そのユーザー名がもう取られた。"
-        error: "ユーザー名の変更中にエラーが発生した。"
-        invalid: "そのユーザー名は無効だ。数字と文字のみ入力してください。"
+        confirm: "If you change your username, all prior quotes of your posts and @name mentions will be broken. Are you absolutely sure you want to?"
+        taken: "Sorry, that username is taken."
+        error: "There was an error changing your username."
+        invalid: "That username is invalid. It must only include numbers and letters"
 
       change_email:
         title: "メール変更"
-        taken: "申し訳ありませんが、そのメールは使用できない。"
-        error: "メールアドレスの変更中にエラーが発生した。そのメールアドレスはすでに使用されている"
-        success: "そのアドレスにてメールを送信した。確認の指示に従ってください。"
+        taken: "Sorry, that email is not available."
+        error: "There was an error changing your email. Perhaps that address is already in use?"
+        success: "We've sent an email to that address. Please follow the confirmation instructions."
 
       email:
         title: "メール"
-        instructions: "あなたのメールは非公開される。"
-        ok: "よさそうだ。確認するために、メールでお知らせする"
-        invalid: "有効なメールアドレスを入力してください。"
-        authenticated: "あなたのメールアドレスは{{provider}}によって認証されている。"
-        frequency: "あなたはこちらからのメールを見ていない場合とあなたを最近見ていない場合のみメールでお知らせする。"
+        instructions: "Your email will never be shown to the public."
+        ok: "Looks good. We will email you to confirm."
+        invalid: "Please enter a valid email address."
+        authenticated: "Your email has been authenticated by {{provider}}."
+        frequency: "We'll only email you if we haven't seen you recently and you haven't already seen the thing we're emailing you about."
 
       name:
         title: "名前"
-        instructions: "あなたのお名前の長いバージョンで、一意である必要はない。＠名前マッチングの代替に使用され、自分のユーザーページに表示される。"
-        too_short: "名前が短すぎる。"
-        ok: "よさそうだ。"
+        instructions: "The longer version of your name; does not need to be unique. Used for alternate @name matching and shown only on your user page."
+        too_short: "Your name is too short."
+        ok: "Your name looks good."
       username:
         title: "ユーザー名"
-        instructions: "一意である必要があり, 空白文字は含めない. 他人は@ユーザー名を使って、あなたに言及する。"
-        short_instructions: "他人は@{{username}}を使って、あなたに言及する。"
-        available: "ユーザー名が利用可能だ。"
-        global_match: "メールは登録されたユーザ名と一致する"
-        global_mismatch: "既に登録した。{{suggestion}}を試しください"
-        not_available: "利用不可能だ。{{suggestion}}を試しください"
-        too_short: "ユーザー名が短すぎる"
-        too_long: "ユーザー名が長すぎる."
-        checking: "ユーザー名の可用性をチェックして..."
-        enter_email: 'ユーザー名が見つかった。マッチングメールアドレスを入力してください。'
+        instructions: "Must be unique, no spaces. People can mention you as @username."
+        short_instructions: "People can mention you as @{{username}}."
+        available: "Your username is available."
+        global_match: "Email matches the registered username."
+        global_mismatch: "Already registered. Try {{suggestion}}?"
+        not_available: "Not available. Try {{suggestion}}?"
+        too_short: "Your username is too short."
+        too_long: "Your username is too long."
+        checking: "Checking username availability..."
+        enter_email: 'Username found. Enter matching email.'
 
       password_confirmation:
         title: "もう一度パスワード"
@@ -248,63 +248,63 @@ en:
       website: "ウェブサイト"
       email_settings: "メール"
       email_digests:
-        title: "サイトに訪ねない時、新しいものを電子メールダイジェストでお知らせください。"
+        title: "When I don't visit the site, send me an email digest of what's new"
         daily: "日々"
         weekly: "毎週"
         bi_weekly: "隔週"
 
-      email_direct: "他人があなたの投稿に返信し、引用し、@ユーザー名を言及する時、電子メールを受け取る"
-      email_private_messages: "他人があなたにプライベートメッセージを送信する時、電子メールを受け取る"
+      email_direct: "Receive an email when someone quotes you, replies to your post, or mentions your @username"
+      email_private_messages: "Receive an email when someone sends you a private message"
 
       other_settings: "その他"
 
       new_topic_duration:
-        label: "これは新規トピック"
-        not_viewed: "まだ見ていない"
-        last_here: "最後アクセスの時から、投稿された"
+        label: "Consider topics new when"
+        not_viewed: "I haven't viewed them yet"
+        last_here: "they were posted since I was here last"
         after_n_days:
-          one: "最終日に投稿された"
-          other: "最後の{{count}} 日に投稿された"
+          one: "they were posted in the last day"
+          other: "they were posted in the last {{count}} days"
         after_n_weeks:
-          one: "最終週に投稿された"
-          other: "最後の{{count}} 週間に投稿された"
+          one: "they were posted in the last week"
+          other: "they were posted in the last {{count}} week"
 
-      auto_track_topics: "自動的に入るトピックを追跡する"
+      auto_track_topics: "Automatically track topics I enter"
       auto_track_options:
-        never: "ネヴァー"
-        always: "いつも"
+        never: "never"
+        always: "always"
         after_n_seconds:
-          one: " 1秒後で"
-          other: "{{count}}秒後で"
+          one: "after 1 second"
+          other: "after {{count}} seconds"
         after_n_minutes:
-          one: "1分後で"
-          other: "{{count}}分後で"
+          one: "after 1 minute"
+          other: "after {{count}} minutes"
 
       invited:
         title: "招待"
         user: "ユーザー招待"
-        none: "{{username}}がサイトへの他のユーザーを招待していない"
-        redeemed: "招待を回復"
-        redeemed_at: "で回復"
-        pending: "ペンディング招待"
-        topics_entered: "入ったトピックス"
-        posts_read_count: "読んだ記事"
-        rescind: "招待を削除"
-        rescinded: "招待を削除した"
-        time_read: "読んだ時間"
-        days_visited: "訪ねた日"
-        account_age_days: "アカウントの日齢"
+        none: "{{username}} hasn't invited any users to the site."
+        redeemed: "Redeemed Invites"
+        redeemed_at: "Redeemed At"
+        pending: "Pending Invites"
+        topics_entered: "Topics Entered"
+        posts_read_count: "Posts Read"
+        rescind: "Remove Invitation"
+        rescinded: "Invite removed"
+        time_read: "Read Time"
+        days_visited: "Days Visited"
+        account_age_days: "Account age in days"
 
       password:
         title: "パスワード"
-        too_short: "パスワードが短すぎる"
-        ok: "よさそうだ"
+        too_short: "Your password is too short."
+        ok: "Your password looks good."
 
       ip_address:
         title: "最後IPアドレス"
       avatar:
         title: "アバター"
-        instructions: "あなたの電子メールに基づいて、アバター用<a href='https://gravatar.com' target='_blank'>Gravatar</a>を使用"
+        instructions: "We use <a href='https://gravatar.com' target='_blank'>Gravatar</a> for avatars based on your email"
       title:
         title: "タイトル"
 
@@ -314,7 +314,7 @@ en:
       stream:
         posted_by: "記事者"
         sent_by: "送り主"
-        private_message: "プライベートメッセージ"
+        private_message: "private message"
         the_topic: "トピック"
 
     loading: "ローディング..."
@@ -322,11 +322,11 @@ en:
     learn_more: "もっと学習..."
 
     year: '年'
-    year_desc: '最新365日間に投稿されたトピックス'
+    year_desc: 'topics posted in the last 365 days'
     month: '月'
-    month_desc: '最新30日間に投稿されたトピックス'
+    month_desc: 'topics posted in the last 30 days'
     week: '週'
-    week_desc: '最新7日間に投稿されたトピックス'
+    week_desc: 'topics posted in the last 7 days'
 
     first_post: 最初記事
     mute: ミュート
@@ -335,14 +335,14 @@ en:
 
     best_of:
       title: "最高の"
-      enabled_description: "このトピックのベスト記事のみ見ている。もっと見るため、下をクリックしてください。"
-      description: "このトピックには<b>{{count}}</b> 記事がある. 多すぎだ! 時間を節約するため、ベスト記事のみ見る？"
-      enable: '"ベスト·オブ"ビューに切り替え'
-      disable: '"ベスト·オブ"をキャンセル'
+      enabled_description: "You're viewing only the best posts in this topic. To see all posts again, click below."
+      description: "There are <b>{{count}}</b> posts in this topic. That's a lot! Would you like to save time by showing only the best posts?"
+      enable: 'Switch to "Best Of" view'
+      disable: 'Cancel "Best Of"'
 
     private_message_info:
-      title: "プライベートメッセージ"
-      invite: "他のユーザーを招待..."
+      title: "Private Message"
+      invite: "Invite Others..."
 
     email: 'メール'
     username: 'ユーザー名'
@@ -354,73 +354,74 @@ en:
       title: "アカウントを作成"
       action: "今1を作成!"
       invite: "まだアカウントを持っていないのですか？"
-      failed: "エラーが発生した。このメールは既に登録された。パスワードを忘れた場合のリンクを試してください。"
+      failed: "Something went wrong, perhaps this email is already registered, try the forgot password link"
 
     forgot_password:
       title: "パスワードを忘れた"
       action: "私は自分のパスワードを忘れてしまった"
-      invite: "ユーザー名、もしくはメールアドレスを入力して、あなたにパスワードリセットメールを送信する"
+      invite: "Enter your username or email address, and we'll send you a password reset email."
       reset: "パスワードのリセット"
-      complete: "アカウントがそのユーザー名または電子メールアドレスと一致した場合、すぐにパスワードをリセットする方法の手順のメールを受信する"
+      complete: "If an account matches that username or email address, you should receive an email with instructions on how to reset your password shortly."
 
     login:
       title: "ログイン"
       username: "ログイン"
       password: "パスワード"
-      email_placeholder: "メールアドレス又はユーザー名"
-      error: "不明なエラー"
-      reset_password: 'パスワードをリセット'
+      email_placeholder: "email address or username"
+      error: "Unknown error"
+      reset_password: 'Reset Password'
       logging_in: "ログインする..."
       or: "または"
-      authenticating: "認証している..."
-      awaiting_confirmation: "あなたのアカウントの起動を待っている。別のアクティベーションの電子メールを発行するためパスワードを忘れた場合のリンクを使用してください。"      awaiting_approval: "あなたのアカウントはまだスタッフメンバーによって承認されていない。承認された時にメールを受信する。"
-      not_activated: "まだログインできない. <b>{{sentTo}}</b>にてアクティベーションメールを送信した. アカウントを有効にするために、そのメールの指示に従ってください。"
-      resend_activation_email: "アクティベーションメールを再送信するために、こちらをクリックしてください"
-      sent_activation_email_again: "別のアクティベーションメールを<b>{{currentEmail}}</b>にて送信した。到着は数分かかる。スパムフォルダもチェックしてください。"
+      authenticating: "Authenticating..."
+      awaiting_confirmation: "Your account is awaiting activation, use the forgot password link to issue another activation email."
+      awaiting_approval: "Your account has not been approved by a staff member yet. You will be sent an email when it is approved."
+      not_activated: "You can't log in yet. We previously sent an activation email to you at <b>{{sentTo}}</b>. Please follow the instructions in that email to activate your account."
+      resend_activation_email: "Click here to send the activation email again."
+      sent_activation_email_again: "We sent another activation email to you at <b>{{currentEmail}}</b>. It might take a few minutes for it to arrive; be sure to check your spam folder."
       google:
-        title: "Googleで"
-        message: " Googleでの認証 (ポップアップブロッカーが有効にしないように注意してください。)"
+        title: "とともに Google"
+        message: "Authenticating with Google (make sure pop up blockers are not enabled)"
       twitter:
-        title: "Twitterで"
-        message: " Twitterでの認証(ポップアップブロッカーが有効にしないように注意してください。)"
+        title: "とともに Twitter"
+        message: "Authenticating with Twitter (make sure pop up blockers are not enabled)"
       facebook:
-        title: "Facebookで"
-        message: " Facebookでの認証(ポップアップブロッカーが有効にしないように注意してください。)"
+        title: "とともに Facebook"
+        message: "Authenticating with Facebook (make sure pop up blockers are not enabled)"
       cas:
-        title: " CASでログインする"
-        message: " CASでの認証(ポップアップブロッカーが有効にしないように注意してください。)"
+        title: "Log In with CAS"
+        message: "Authenticating with CAS (make sure pop up blockers are not enabled)"
       yahoo:
-        title: "Yahooで"
-        message: " Yahooでの認証(ポップアップブロッカーが有効にしないように注意してください。)"
+        title: "とともに Yahoo"
+        message: "Authenticating with Yahoo (make sure pop up blockers are not enabled)"
       github:
-        title: "GitHubで"
-        message: "GitHubでの認証(ポップアップブロッカーが有効にしないように注意してください。)"
+        title: "with GitHub"
+        message: "Authenticating with GitHub (make sure pop up blockers are not enabled)"
       persona:
-        title: "Personaで"
-        message: "Mozilla Personaでの (ポップアップブロッカーが有効にしないように注意してください。)"
+        title: "とともに Persona"
+        message: "Authenticating with Mozilla Persona (make sure pop up blockers are not enabled)"
 
     composer:
-      posting_not_on_topic: "どんなトピックには返信したいか?"
-      saving_draft_tip: "保存している"
-      saved_draft_tip: "保存した"
-      saved_local_draft_tip: "ローカルに保存した"
-      similar_topics: "あなたのトピックは...に同じだ"
-      drafts_offline: "オフラインドラフト"
+      posting_not_on_topic: "Which topic do you want to reply to?"
+      saving_draft_tip: "saving"
+      saved_draft_tip: "saved"
+      saved_local_draft_tip: "saved locally"
+      similar_topics: "Your topic is similar to..."
+      drafts_offline: "drafts offline"
 
       min_length:
-        need_more_for_title: "タイトルになるため{{n}} が必要だ"
-        need_more_for_reply: "記事になるため{{n}} が必要だ"
+        need_more_for_title: "{{n}} to go for the title"
+        need_more_for_reply: "{{n}} to go for the post"
 
       error:
-        title_missing: "タイトルが必要だ"
-        title_too_short: "タイトルは少なくとも{{min}}文字の長さが必要だ"
-        title_too_long: "タイトルは{{max}}文字未満でなければならない"
-        post_missing: "記事は空にすることはできない"
-        post_length: "記事は少なくとも{{min}}文字の長さが必要だ"
-        category_missing: "カテゴリを選択する必要がある"
+        title_missing: "Title is required."
+        title_too_short: "Title must be at least {{min}} characters long."
+        title_too_long: "Title must be less than {{max}} characters long."
+        post_missing: "Post can't be empty."
+        post_length: "Post must be at least {{min}} characters long."
+        category_missing: "You must choose a category."
 
       save_edit: "編集保存"
-      reply_original: "オリジナルトピックに返信"
+      reply_original: "Reply on Original Topic"
       reply_here: "ここに返信"
       reply: "返信"
       cancel: "キャンセル"
@@ -428,48 +429,48 @@ en:
       create_pm: "プライベートメッセージ作成。"
 
       users_placeholder: "ユーザー追加"
-      title_placeholder: "ここにタイトルを入力してください。話の内容は簡潔な文章にしてください"
-      reply_placeholder: "ここに入力してください。フォーマットのため、マークダウンやBBコードを使用してください。画像をアップロードするため、その画像をドラッグするか、または貼り付けする"
-      view_new_post: "あなたの新規記事を見る"
-      saving: "保存している..."
-      saved: "保存した!"
-      saved_draft: "進行中のポストドラフトがある。 編集を再開するには、このボックス内の任意の場所をクリックしてください"
-      uploading: "アップローディング..."
-      show_preview: 'プレビューを表示&raquo;'
-      hide_preview: '&laquo; プレビューを非表示'
+      title_placeholder: "Type your title here. What is this discussion about in one brief sentence?"
+      reply_placeholder: "Type here. Use Markdown or BBCode to format. Drag or paste an image to upload it."
+      view_new_post: "View your new post."
+      saving: "Saving..."
+      saved: "Saved!"
+      saved_draft: "You have a post draft in progress. Click anywhere in this box to resume editing."
+      uploading: "Uploading..."
+      show_preview: 'show preview &raquo;'
+      hide_preview: '&laquo; hide preview'
 
-      quote_post_title: "全体の記事を引用"
-      bold_title: "ストロング"
-      bold_text: "強力なテキスト"
-      italic_title: "強調"
-      italic_text: "強調テキスト"
-      link_title: "ハイパーリンク"
-      link_description: "ここにリンクの説明を入力"
-      link_dialog_title: "ハイパーリンクを挿入"
-      link_optional_text: "オプションのタイトル"
-      quote_title: "引用をブロック"
-      quote_text: "引用をブロック"
-      code_title: "コードサンプル"
-      code_text: "ここにコードを入力"
-      upload_title: "アップロード"
-      upload_description: "ここにアップロードの説明を入力"
-      olist_title: "番号付きリスト"
-      ulist_title: "箇条書きリスト"
-      list_item: "並び項目"
-      heading_title: "ヘディング"
-      heading_text: "ヘディング"
-      hr_title: "横罫線"
-      undo_title: "アンドゥ"
-      redo_title: "リドゥ"
-      help: "マークダウン編集ヘルプ"
-      toggler: "コンポーザーパネルを表示または非表示"
+      quote_post_title: "Quote whole post"
+      bold_title: "Strong"
+      bold_text: "strong text"
+      italic_title: "Emphasis"
+      italic_text: "emphasized text"
+      link_title: "Hyperlink"
+      link_description: "enter link description here"
+      link_dialog_title: "Insert Hyperlink"
+      link_optional_text: "optional title"
+      quote_title: "Blockquote"
+      quote_text: "Blockquote"
+      code_title: "Code Sample"
+      code_text: "enter code here"
+      upload_title: "Upload"
+      upload_description: "enter upload description here"
+      olist_title: "Numbered List"
+      ulist_title: "Bulleted List"
+      list_item: "List item"
+      heading_title: "Heading"
+      heading_text: "Heading"
+      hr_title: "Horizontal Rule"
+      undo_title: "Undo"
+      redo_title: "Redo"
+      help: "Markdown Editing Help"
+      toggler: "hide or show the composer panel"
 
-      admin_options_title: "このトピックのためのオプションスタッフを設定"
-      auto_close_label: "トピックを自動的にクローズ:"
-      auto_close_units: "日"
+      admin_options_title: "Optional staff settings for this topic"
+      auto_close_label: "Auto-close topic after:"
+      auto_close_units: "days"
 
     notifications:
-      title: "@名前を言及、記事やトピックに返信、プライベートメッセージ等の通知"
+      title: "notifications of @name mentions, replies to your posts and topics, private messages, etc"
       none: "あなたは今、何の通知もありません。"
       more: "古い通知を表示"
       mentioned: "<span title='mentioned' class='icon'>@</span> {{username}} {{link}}"
@@ -962,7 +963,7 @@ en:
     views: "ビュー"
     replies: "返信"
     views_long: "this topic has been viewed {{number}} times"
-    activity: "更新"
+    activity: "活動"
     likes: "好き"
     likes_long: "there are {{number}} likes in this topic"
     top_contributors: "参加者"
@@ -1299,5 +1300,4 @@ en:
         title: '設定'
         reset: 'デフォルトにリセット'
         none: 'のどれも'
-
 
