@@ -101,8 +101,8 @@ en:
     more: "もっと"
     less: "レス"
     character_count:
-      one: "{{count}} character"
-      other: "{{count}} characters"
+      one: "{{count}} 文字"
+      other: "{{count}} 文字"
       
     in_n_seconds:
       one: "1秒"
@@ -135,9 +135,9 @@ en:
     saving: "保存して..."
     saved: "保存した!"
 
-    upload: "Upload"
-    uploading: "Uploading..."
-    uploaded: "Uploaded!"
+    upload: "アップロード"
+    uploading: "アップロードする..."
+    uploaded: "アップロードしまし!"
 
     choose_topic:
       none_found: "トピックが見つからない。"
