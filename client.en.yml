@@ -100,7 +100,10 @@ en:
     read_more: 'もっと読む'
     more: "もっと"
     less: "レス"
-
+    character_count:
+      one: "{{count}} character"
+      other: "{{count}} characters"
+      
     in_n_seconds:
       one: "1秒"
       other: " {{count}} 1秒"
@@ -131,6 +134,10 @@ en:
     save: "変更を保存"
     saving: "保存して..."
     saved: "保存した!"
+
+    upload: "Upload"
+    uploading: "Uploading..."
+    uploaded: "Uploaded!"
 
     choose_topic:
       none_found: "トピックが見つからない。"
@@ -194,6 +201,7 @@ en:
         success: "(電子メールが送信)"
         in_progress: "(メールを送信)"
         error: "(エラー)"
+        action: "Send Password Reset Email"
 
       change_about:
         title: "自己紹介の変更"
@@ -210,6 +218,14 @@ en:
         taken: "申し訳ありませんが、そのメールは使用できない。"
         error: "メールアドレスの変更中にエラーが発生した。そのメールアドレスはすでに使用されている"
         success: "そのアドレスにてメールを送信した。確認の指示に従ってください。"
+
+      change_avatar:
+        title: "Change your avatar"
+        gravatar: "<a href='//gravatar.com/emails' target='_blank'>Gravatar</a>, based on"
+        gravatar_title: "Change your avatar on Gravatar's website"
+        uploaded_avatar: "Custom picture"
+        uploaded_avatar_empty: "Add a custom picture"
+        upload_title: "Upload your picture"
 
       email:
         title: "メール"
@@ -304,7 +320,6 @@ en:
         title: "最後IPアドレス"
       avatar:
         title: "アバター"
-        instructions: "あなたの電子メールに基づいて、アバター用<a href='https://gravatar.com' target='_blank'>Gravatar</a>を使用"
       title:
         title: "タイトル"
 
@@ -374,6 +389,7 @@ en:
       or: "または"
       authenticating: "認証している..."
       awaiting_confirmation: "あなたのアカウントの起動を待っている。別のアクティベーションの電子メールを発行するためパスワードを忘れた場合のリンクを使用してください。"      awaiting_approval: "あなたのアカウントはまだスタッフメンバーによって承認されていない。承認された時にメールを受信する。"
+      awaiting_approval: ""
       not_activated: "まだログインできない. <b>{{sentTo}}</b>にてアクティベーションメールを送信した. アカウントを有効にするために、そのメールの指示に従ってください。"
       resend_activation_email: "アクティベーションメールを再送信するために、こちらをクリックしてください"
       sent_activation_email_again: "別のアクティベーションメールを<b>{{currentEmail}}</b>にて送信した。到着は数分かかる。スパムフォルダもチェックしてください。"
@@ -1165,27 +1181,43 @@ en:
         title: "ログ"
         action: "行動"
         created_at: "作成"
-        blocked_emails:
-          title: "ブロックされたメール"
-          description: "When someone tries to create a new account, the following email addresses will be checked and the registration will be blocked, or some other action performed."
-          email: "メールアドレス"
-          last_match_at: "最後にマッチした"
-          match_count: "マッチ"
-          actions:
-            block: "ブロック"
-            do_nothing: "何もしない"
+        last_match_at: "最後にマッチした"
+        match_count: "マッチ"
+        screened_actions:
+          block: "ブロック"
+          do_nothing: "何もしない"
         staff_actions:
           title: "スタッフアクション"
           instructions: "Click usernames and actions to filter the list. Click avatars to go to user pages."
           clear_filters: "Show Everything"
           staff_user: "スタッフユーザー"
           target_user: "ターゲットユーザ"
+          subject: "主題"
           when: "とき"
           context: "コンテキスト"
           details: "細部"
+          ip_address: "IP"
+          previous_value: "Previous"
+          new_value: "New"
+          diff: "Diff"
+          show: "Show"
+          modal_title: "Details"
+          no_previous: "There is no previous value."
+          deleted: "No new value. The record was deleted."
           actions:
             delete_user: "ユーザーを削除する"
             change_trust_level: "信頼レベルを変更する"
+            change_site_setting: "change site setting"
+            change_site_customization: "change site customization"
+            delete_site_customization: "delete site customization"
+        screened_emails:
+          title: "Screened Emails"
+          description: "When someone tries to create a new account, the following email addresses will be checked and the registration will be blocked, or some other action performed."
+          email: "Email Address"
+        screened_urls:
+          title: "Screened URLs"
+          description: "The URLs listed here were used in posts by users who have been identified as spammers."
+          url: "URL"
 
       impersonate:
         title: "Impersonate User"
@@ -1212,6 +1244,9 @@ en:
         approved_selected:
           one: "ユーザ承認"
           other: "ユーザ承認 ({{count}})"
+        reject_selected:
+          one: "ユーザーを拒否する"
+          other: " ({{count}}ユーザーを拒否する)"
         titles:
           active: 'アクティブ ユーザー'
           new: '新規ユーザー'
@@ -1225,6 +1260,12 @@ en:
           moderators: 'モデレーター'
           blocked: 'ブロックされた ユーザー'
           banned: '禁止された ユーザ'
+        reject_successful:
+          one: "Successfully rejected 1 user."
+          other: "Successfully rejected %{count} users."
+        reject_failures:
+          one: "Failed to reject 1 user."
+          other: "Failed to reject %{count} users."
 
       user:
         ban_failed: "Something went wrong banning this user {{error}}"
