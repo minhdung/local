@@ -502,43 +502,43 @@ en:
       total_flagged: "各フラグが付けられた記事"
 
     upload_selector:
-      title: "Upload an image"
-      title_with_attachments: "Upload an image or a file"
-      from_my_computer: "From My Device"
-      from_the_web: "From The Web"
-      add_title: "Add image"
-      add_title_with_attachments: "Add image or file"
-      remote_title: "remote image"
-      remote_title_with_attachments: "remote image or file"
-      remote_tip: "enter address of an image in the form http://example.com/image.jpg"
-      remote_tip_with_attachments: "enter address of an image or a file in the form http://example.com/file.ext (allowed extensions: {{authorized_extensions}})."
-      local_title: "local image"
-      local_title_with_attachments: "local image or file"
-      local_tip: "click to select an image from your device"
-      local_tip_with_attachments: "click to select an image or a file from your device (allowed extensions: {{authorized_extensions}})"
-      upload_title: "Upload image"
-      upload_title_with_attachments: "Upload image or file"
-      uploading: "Uploading"
+      title: "画像をアップロード"
+      title_with_attachments: "画像やファイルをアップロード"
+      from_my_computer: "マイデバイスから"
+      from_the_web: "ウェブから"
+      add_title: "画像を追加"
+      add_title_with_attachments: "画像やファイルを追加"
+      remote_title: "リモートイメージ"
+      remote_title_with_attachments: "リモート画像やファイル"
+      remote_tip: "画像のURLをこういうふうに入力してくださいhttp://example.com/image.jpg"
+      remote_tip_with_attachments: "画像やファイルのURLをこういうふうに入力してください http://example.com/file.ext (許可された拡張子:{{authorized_extensions}})."
+      local_title: "ローカル画像"
+      local_title_with_attachments: "ローカル画像やファイル"
+      local_tip: "デバイスからの画像を選択すらためにクリックしてください"
+      local_tip_with_attachments: "デバイスからの画像やファイルを選択すらためにクリックしてください (許可された拡張子: {{authorized_extensions}})"
+      upload_title: "画像をアップロード"
+      upload_title_with_attachments: "画像やファイルをアップロード"
+      uploading: "アップローディング"
 
     search:
-      title: "search for topics, posts, users, or categories"
-      placeholder: "type your search terms here"
-      no_results: "No results found."
-      searching: "Searching ..."
+      title: "トピック、記事、ユーザー、カテゴリを検索"
+      placeholder: "ここに検索キーワードを入力"
+      no_results: "検索結果が見つからない"
+      searching: "検索している..."
 
       prefer:
         user: "search will prefer results by @{{username}}"
         category: "search will prefer results in {{category}}"
 
-    site_map: "go to another topic list or category"
-    go_back: 'go back'
-    current_user: 'go to your user page'
+    site_map: "別のトピックリスト、またはカテゴリへ"
+    go_back: '戻る'
+    current_user: 'ユーザページへ'
 
     favorite:
       title: 'お気に入り'
       help:
-        star: 'add this topic to your favorites list'
-        unstar: 'remove this topic from your favorites list'
+        star: 'お気に入りリストにこのトピックを追加'
+        unstar: 'お気に入りリストにこのトピックを削除'
 
     topics:
       none:
@@ -561,12 +561,12 @@ en:
         category: "これ以上 {{category}} トピック はありません."
 
     rank_details:
-      toggle: toggle topic rank details
-      show: show topic rank details
-      title: Topic Rank Details
+      toggle: トグルトピックランキングの詳細
+      show: トピックランキングの詳細を表示
+      title: トピックランキングの詳細
 
     topic:
-      create_in: 'Create {{categoryName}} Topic'
+      create_in: '{{categoryName}} トピックを作成'
       create: 'トピック作成'
       create_long: '新しいトピック作成'
       private_message: 'プライベートメッセージ開始'
@@ -577,29 +577,29 @@ en:
       loading: 'トピックローディング...'
       invalid_access:
         title: "トピックはプライベートです"
-        description: "Sorry, you don't have access to that topic!"
+        description: "申し訳ありませんが、そのトピックにまだアクセスしない!"
       server_error:
-        title: "Topic failed to load"
-        description: "Sorry, we couldn't load that topic, possibly due to a connection problem. Please try again. If the problem persists, let us know."
+        title: "トピックのロードに失敗した"
+        description: "申し訳ありませんが、そのトピックをロードできない。接続の問題は原因になる可能性がある。再度試してください。問題が解決しない場合は、連絡してください。"
       not_found:
         title: "トピックでは、ロードに失敗しました"
-        description: "Sorry, we couldn't find that topic. Perhaps it was removed by a moderator?"
+        description: "申し訳ありませんが、そのトピックが見つからない. モデレーターに削除された可能性がある。"
       unread_posts:
-        one: "you have 1 unread old post in this topic"
-        other: "you have {{count}} unread old posts in this topic"
+        one: "このトピックには１つ未読記事がある"
+        other: "このトピックには{{count}}つ未読記事がある"
       new_posts:
-        one: "there is 1 new post in this topic since you last read it"
-        other: "there are {{count}} new posts in this topic since you last read it"
+        one: "最後アクセスからこのトピックには一つ新規記事がある"
+        other: "最後アクセスからこのトピックには{{count}}つ新規記事がある"
 
       likes:
-        one: "there is 1 like in this topic"
-        other: "there are {{count}} likes in this topic"
-      back_to_list: "Back to Topic List"
-      options: "Topic Options"
-      show_links: "show links within this topic"
-      toggle_information: "toggle topic details"
-      read_more_in_category: "Want to read more? Browse other topics in {{catLink}} or {{latestLink}}."
-      read_more: "Want to read more? {{catLink}} or {{latestLink}}."
+        one: "このトピックにはいいね！が１個がある"
+        other: "このトピックにはいいね！が{{count}}個がある"
+      back_to_list: "トピック·リストに戻る"
+      options: "トピックオプション"
+      show_links: "このトピック内のリンクを表示"
+      toggle_information: "トグルトピックの詳細"
+      read_more_in_category: "もっと見たいか? {{catLink}} 又は {{latestLink}}から他のトピックをブラウズ"
+      read_more: "もっと見たいか? {{catLink}}　又は {{latestLink}}."
 
       # keys ending with _MF use message format, see /spec/components/js_local_helper_spec.rb for samples
       read_more_MF: "There {
@@ -621,37 +621,37 @@ en:
 
       view_latest_topics: 最新のトピックを表示
       suggest_create_topic: どうして トピックを作成していない?
-      read_position_reset: "Your read position has been reset."
-      jump_reply_up: jump to earlier reply
-      jump_reply_down: jump to later reply
+      read_position_reset: "現在の位置がリセットされた."
+      jump_reply_up: 以前の返信にジャンプ
+      jump_reply_down: 後の返信にジャンプ
       deleted: "トピックは削除されました"
 
-      auto_close_notice: "This topic will automatically close %{timeLeft}."
-      auto_close_title: 'Auto-Close Settings'
-      auto_close_save: "Save"
-      auto_close_cancel: "Cancel"
-      auto_close_remove: "Don't Auto-Close This Topic"
+      auto_close_notice: "%{timeLeft}後で自動的に閉じる"
+      auto_close_title: '自動クローズ設定'
+      auto_close_save: "保存"
+      auto_close_cancel: "キャンセル"
+      auto_close_remove: "このトピックは自動クローズしないでください"
 
       progress:
-        title: topic progress
-        jump_top: jump to first post
-        jump_bottom: jump to last post
-        total: total posts
-        current: current post
+        title: トピックのプログレス
+        jump_top: 最初の記事にジャンプ
+        jump_bottom: 最新の記事にジャンプ
+        total: 記事一覧
+        current: 現在の記事
 
       notifications:
         title: ''
         reasons:
-          "3_2": 'You will receive notifications because you are watching this topic.'
-          "3_1": 'You will receive notifications because you created this topic.'
-          "3": 'You will receive notifications because you are watching this topic.'
-          "2_4": 'You will receive notifications because you posted a reply to this topic.'
-          "2_2": 'You will receive notifications because you are tracking this topic.'
-          "2": 'You will receive notifications because you <a href="/users/{{username}}/preferences">read this topic</a>.'
-          "1": 'You will be notified only if someone mentions your @name or replies to your post.'
-          "1_2": 'You will be notified only if someone mentions your @name or replies to your post.'
-          "0": 'You are ignoring all notifications on this topic.'
-          "0_2": 'You are ignoring all notifications on this topic.'
+          "3_2": 'このトピックを見ていたので、通知を受信する'
+          "3_1": 'このトピックを作成したので、通知を受信する'
+          "3": 'このトピックを見ていたので、通知を受信する'
+          "2_4": 'このトピックに返信したので、通知を受信する'
+          "2_2": 'このトピックを追跡したので、通知を受信する'
+          "2": '<a href="/users/{{username}}/preferences">がこのトピックを見ていたので、通知を受信する</a>.'
+          "1": '他人があなたのお名前に言及し、記事に返信する場合のみ、通知される'
+          "1_2": '他人があなたのお名前に言及し、記事に返信する場合のみ、通知される'
+          "0": 'このトピックに関するすべての通知を無視'
+          "0_2": 'このトピックに関するすべての通知を無視'
         watching:
           title: "Watching"
           description: "same as Tracking, plus you will be notified of all new posts."
