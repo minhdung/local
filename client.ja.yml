@@ -522,9 +522,6 @@ en:
 
     search:
       title: "トピック、記事、ユーザー、カテゴリを検索"
-
-    search:
-      title: "search for topics, posts, users, or categories"
       placeholder: "ここに検索キーワードを入力"
       no_results: "検索結果が見つからない"
       searching: "検索している..."
