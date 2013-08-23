@@ -499,7 +499,7 @@ en:
       invited_to_private_message: "<i class='icon icon-envelope-alt' title='private message'></i> {{username}} {{link}}"
       invitee_accepted: "<i title='accepted your invitation' class='icon icon-signin'></i> {{username}} accepted your invitation"
       moved_post: "<i title='moved post' class='icon icon-arrow-right'></i> {{username}} moved to {{link}}"
-      total_flagged: "total flagged posts"
+      total_flagged: "各フラグが付けられた記事"
 
     upload_selector:
       title: "Upload an image"
