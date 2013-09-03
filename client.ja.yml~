@@ -167,7 +167,7 @@ en:
       "2": "受信好き"
       "3": "ブックマーク"
       "4": "トピック"
-      "5": "レス"
+      "5": "記事数"
       "6": "返信"
       "7": "言及"
       "9": "引用"
@@ -181,7 +181,7 @@ en:
       profile: プロフィール
       mute: ミュート
       edit: プリファレンスを編集
-      download_archive: "私の記事のアーカイブをダウンロード"
+      download_archive: ""
       private_message: "プライベートメッセージ"
       private_messages: "メッセージ"
       activity_stream: "アクティビティ"
