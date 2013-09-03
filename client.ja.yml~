@@ -181,7 +181,7 @@ en:
       profile: プロフィール
       mute: ミュート
       edit: プリファレンスを編集
-      download_archive: ""
+      download_archive: "私の記事のアーカイブをダウンロード"
       private_message: "プライベートメッセージ"
       private_messages: "メッセージ"
       activity_stream: "アクティビティ"
