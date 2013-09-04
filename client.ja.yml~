@@ -186,7 +186,7 @@ en:
       private_messages: "メッセージ"
       activity_stream: "アクティビティ"
       preferences: "プリファレンス"
-      bio: "私について"
+      bio: ""
       invited_by: "招待"
       trust_level: "信頼 レベル"
       notifications: "通知"
@@ -617,9 +617,9 @@ en:
             other { {BOTH, select, true{and } false {are } other{}} <a href='/new'># new</a> topics}
         } remaining, or {CATEGORY, select, true {browse other topics in {catLink}} false {{latestLink}} other {}} "
 
-      browse_all_categories: すべてのカテゴリをブラウズ
+      browse_all_categories: すべてのカテゴリを見る
 
-      view_latest_topics: 最新のトピックを表示
+      view_latest_topics: 最新のトピックを見る
       suggest_create_topic: トピックを作成する
       read_position_reset: "現在の位置がリセットされた."
       jump_reply_up: 以前の返信にジャンプ
