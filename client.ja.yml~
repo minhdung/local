@@ -620,7 +620,7 @@ en:
       browse_all_categories: すべてのカテゴリをブラウズ
 
       view_latest_topics: 最新のトピックを表示
-      suggest_create_topic: どうして トピックを作成していない?
+      suggest_create_topic: トピックを作成する
       read_position_reset: "現在の位置がリセットされた."
       jump_reply_up: 以前の返信にジャンプ
       jump_reply_down: 後の返信にジャンプ
@@ -1008,16 +1008,16 @@ en:
         help: "カテゴリをグループ化されたトピック"
       unread:
         title:
-          zero: "未読"
-          one: "未読(1)"
-          other: "未読({{count}})"
+          zero: ""
+          one: ""
+          other: ""
         help: "未読トピックとして追跡"
       new:
         title:
-          zero: "新しい"
-          one: "新しい (1)"
-          other: "新しい ({{count}})"
-        help: "最終ログイン以来の新しいトピック"
+          zero: ""
+          one: ""
+          other: ""
+        help: ""
       posted:
         title: "私の記事"
         help: "あなたが投稿したトピック"

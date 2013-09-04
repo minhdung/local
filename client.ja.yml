@@ -1008,16 +1008,16 @@ en:
         help: "カテゴリをグループ化されたトピック"
       unread:
         title:
-          zero: "未読"
-          one: "未読(1)"
-          other: "未読({{count}})"
-        help: "未読トピックとして追跡"
+          zero: ""
+          one: ""
+          other: ""
+        help: ""
       new:
         title:
-          zero: "新しい"
-          one: "新しい (1)"
-          other: "新しい ({{count}})"
-        help: "最終ログイン以来の新しいトピック"
+          zero: ""
+          one: ""
+          other: ""
+        help: ""
       posted:
         title: "私の記事"
         help: "あなたが投稿したトピック"
