@@ -6,8 +6,8 @@
 
 en:
   dates:
-    short_date_no_year: "D MMM"
-    short_date: "D MMM, YYYY"
+    short_date_no_year: "D MMMM, YYYY"
+    short_date: "D MMMM, YYYY"
     long_date: "MMMM D, YYYY h:mma"
   time:
     formats:

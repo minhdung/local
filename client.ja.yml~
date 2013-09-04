@@ -71,7 +71,7 @@ en:
           other: "%{count} 日前"
     share:
       topic: 'このトピックのリンクを共有する'
-      post: 'このトピックのリンク共有'
+      post: 'このトピックのリンクを共有する'
       close: 'クローズ'
       twitter: 'Twitterでこのリンクを共有'
       facebook: 'Facebookでこのリンクを共有'
@@ -347,7 +347,7 @@ en:
     first_post: 最初記事
     mute: ミュート
     unmute: ミュート解除
-    last_post: 最後記事
+    last_post: 更新
 
     best_of:
       title: "最高の"
@@ -973,7 +973,7 @@ en:
       invisible:
         help: "目に見えないトピックだ。このトピックはトピックリストに非表示、直接リンク経由アクセスできない"
 
-    posts: "レス"
+    posts: "記事数"
     posts_long: "このトピックには記事が{{number}} つある"
     original_post: "オリジナルのポスト"
     views: "ビュー"
@@ -1338,4 +1338,5 @@ en:
         title: '設定'
         reset: 'デフォルトにリセット'
         none: 'のどれも'
+
 

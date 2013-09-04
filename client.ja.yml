@@ -71,11 +71,11 @@ en:
           other: "%{count} 日前"
     share:
       topic: 'このトピックのリンクを共有する'
-      post: 'このトピックのリンク共有'
+      post: 'このトピックのリンクを共有する'
       close: 'クローズ'
-      twitter: 'Twitterでこのリンクを共有'
-      facebook: 'Facebookでこのリンクを共有'
-      google+: 'Google+でこのリンクを共有'
+      twitter: 'Twitterでこのリンクを共有する'
+      facebook: 'Facebookでこのリンクを共有する'
+      google+: 'Google+でこのリンクを共有する'
       email: 'メールでこのリンクを送る'
 
     edit: 'このトピックのタイトルとカテゴリを編集'
@@ -347,7 +347,7 @@ en:
     first_post: 最初記事
     mute: ミュート
     unmute: ミュート解除
-    last_post: 最後記事
+    last_post: 更新
 
     best_of:
       title: "最高の"
@@ -1338,4 +1338,5 @@ en:
         title: '設定'
         reset: 'デフォルトにリセット'
         none: 'のどれも'
+
 
