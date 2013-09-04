@@ -115,7 +115,7 @@ en:
       other: "< {{count}} 時間"
     in_n_days:
       one: "< 1 日"
-      other: "< {{count}} 日"
+      other: "< {{count}} 日前"
 
     suggested_topics:
       title: "関連したトピック"
@@ -258,8 +258,8 @@ en:
 
       last_posted: "更新"
       last_emailed: "最後メール"
-      last_seen: "最後に見た"
-      created: "作成された"
+      last_seen: "最終ログイン"
+      created: "登録日時"
       log_out: "ログアウト"
       website: "ウェブサイト"
       email_settings: "メール"
@@ -320,7 +320,7 @@ en:
         title: "最後IPアドレス"
       avatar:
         title: "アバター"
-        instructions: "あなたの電子メールに基づいて、アバター用<a href='https://gravatar.com' target='_blank'>Gravatar</a>を使用"
+        instructions: ""
       title:
         title: "タイトル"
 
@@ -653,17 +653,17 @@ en:
           "0": 'このトピックに関するすべての通知を無視'
           "0_2": 'このトピックに関するすべての通知を無視'
         watching:
-          title: "ウォッチング"
-          description: "トラッキングと同様、プラスあなたはすべての新規記事に通知される"
+          title: ""
+          description: ""
         tracking:
-          title: "追跡"
-          description: "他人があなたのお名前に言及し、記事に返信する場合に通知される。プラスあなたは未読と新しい記事のカウントを表示する"
+          title: ""
+          description: ""
         regular:
-          title: "定期的"
-          description: "他人があなたのお名前に言及し、記事に返信する場合に通知される"
+          title: ""
+          description: ""
         muted:
-          title: "ミュート"
-          description: "このトピックについては何も通知されない。未読のタブにも表示されない"
+          title: ""
+          description: ""
 
       actions:
         recover: "トピックを回復"
@@ -1011,7 +1011,7 @@ en:
           zero: ""
           one: ""
           other: ""
-        help: "未読トピックとして追跡"
+        help: ""
       new:
         title:
           zero: ""
