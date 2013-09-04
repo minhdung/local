@@ -73,9 +73,9 @@ en:
       topic: 'このトピックのリンクを共有する'
       post: 'このトピックのリンクを共有する'
       close: 'クローズ'
-      twitter: 'Twitterでこのリンクを共有'
-      facebook: 'Facebookでこのリンクを共有'
-      google+: 'Google+でこのリンクを共有'
+      twitter: 'Twitterでこのリンクを共有する'
+      facebook: 'Facebookでこのリンクを共有する'
+      google+: 'Google+でこのリンクを共有する'
       email: 'メールでこのリンクを送る'
 
     edit: 'このトピックのタイトルとカテゴリを編集'
@@ -368,7 +368,7 @@ en:
 
     create_account:
       title: "アカウントを作成"
-      action: "今1を作成!"
+      action: "新規作成"
       invite: "アカウントを"
       failed: "エラーが発生した。このメールは既に登録された。パスワードを忘れた場合のリンクを試してください。"
 
@@ -567,7 +567,7 @@ en:
 
     topic:
       create_in: '{{categoryName}} トピックを作成'
-      create: 'トピック作成'
+      create: 'トピックを作成する'
       create_long: '新しいトピックを作成する'
       private_message: 'プライベートメッセージ開始'
       list: 'トピック'
