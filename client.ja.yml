@@ -186,7 +186,7 @@ en:
       private_messages: "メッセージ"
       activity_stream: "アクティビティ"
       preferences: "プロフィール"
-      bio: ""
+      bio: "自己紹介"
       invited_by: "招待"
       trust_level: ""
       notifications: "通知"
@@ -549,7 +549,7 @@ en:
         posted: "あなたはまだ、任意のトピックに掲載されていない."
         latest: "最新のトピックがありません。それは悲しいことだ."
         hot: "ホットな話題はありません."
-        category: ". すべてのカテゴリを見る "
+        category: "すべてのカテゴリを見る. "
       bottom:
         latest: ""
         hot: "もうホットな話題ではありません."
@@ -619,7 +619,7 @@ en:
 
       browse_all_categories:  .すべてのカテゴリを見る
 
-      view_latest_topics:  .最新のトピックを見る
+      view_latest_topics:  最新のトピックを見る.
       suggest_create_topic: トピックを作成する
       read_position_reset: "現在の位置がリセットされた."
       jump_reply_up: 以前の返信にジャンプ
@@ -823,7 +823,7 @@ en:
           spam: "報告を取り消す"
           inappropriate: "報告を取り消す"
           bookmark: "ブックマークをアンドゥ"
-          like: "いいね！を取り消す"
+          like: ""
           vote: "投票をアンドゥ"
         people:
           off_topic: "{{icons}}関連性がないとしてこれをマークした"
@@ -865,11 +865,11 @@ en:
             one: "あなたと他人の一人はこの記事をブックマークした"
             other: "あなたと他人の{{count}}人はこの記事をブックマークした"
           like:
-            one: "あなたと他人の一人はいいね！と言っています。　いいね！を取り消す"
-            other: "あなたと他人の{{count}}人はいいね！と言っています。　いいね！を取り消す"
+            one: "あなたと他人の一人がいいね！と言っています。"
+            other: "あなたと他人の{{count}}人はいいね！と言っています。"
           vote:
             one: "あなたと他人の一人はこの記事に投票した"
-            other: "あなたと他人の{{count}}人がいいね！と言っています。　いいね！を取り消す"
+            other: "あなたと他人の{{count}}人がいいね！と言っています"
         by_others:
           off_topic:
             one: "一人は関連性がないとしてこれにフラグを付けた"
