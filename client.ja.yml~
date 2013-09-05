@@ -180,7 +180,7 @@ en:
       said: "{{username}} 言った:"
       profile: プロフィール
       mute: ミュート
-      edit: プロフィール編集
+      edit: 自己紹介
       download_archive: ""
       private_message: "プライベートメッセージ"
       private_messages: "メッセージ"
@@ -230,27 +230,27 @@ en:
       email:
         title: "メール"
         instructions: "メールアドレスは非公開です。"
-        ok: "よさそうだ。確認するために、メールでお知らせする"
+        ok: "OK"
         invalid: "有効なメールアドレスを入力してください。"
         authenticated: "あなたのメールアドレスは{{provider}}によって認証されている。"
         frequency: ""
 
       name:
-        title: "表示名"
-        instructions: "プロフィールページで表示されます。"
-        too_short: "名前が短すぎる。"
-        ok: "よさそうだ。"
-      username:
         title: "ユーザー名"
-        instructions: "一意である必要があり, 空白文字は含めない. 他人は@ユーザー名を使って、あなたに言及する。"
+        instructions: "プロフィールページで表示されます。"
+        too_short: "ユーザー名は3文字以上です"
+        ok: "OK"
+      username:
+        title: "ユーザーID"
+        instructions: "ユーザーIDは半角英数のみ利用可能です。"
         short_instructions: "他人は@{{username}}が含まれていると通知されます。"
-        available: "ユーザー名が利用可能だ。"
+        available: "OK"
         global_match: "メールは登録されたユーザ名と一致する"
         global_mismatch: "既に登録した。{{suggestion}}を試しください"
         not_available: "利用不可能だ。{{suggestion}}を試しください"
-        too_short: "ユーザー名が短すぎる"
+        too_short: "ユーザーIDは3文字以上です"
         too_long: "ユーザー名が長すぎる."
-        checking: "ユーザー名の可用性をチェックして..."
+        checking: "ユーザーIDをチェックしています"
         enter_email: 'ユーザー名が見つかった。マッチングメールアドレスを入力してください。'
 
       password_confirmation:
@@ -261,7 +261,7 @@ en:
       last_seen: "最終ログイン"
       created: "登録日時"
       log_out: "ログアウト"
-      website: "ウェブサイト"
+      website: ""
       email_settings: "メール"
       email_digests:
         title: ""
@@ -313,8 +313,8 @@ en:
 
       password:
         title: "パスワード"
-        too_short: "パスワードが短すぎる"
-        ok: "よさそうだ"
+        too_short: ""
+        ok: "OK"
 
       ip_address:
         title: "最後IPアドレス"
@@ -449,7 +449,7 @@ en:
       reply_placeholder: "ここに本文を入力してください。（必須）"
       view_new_post: "あなたの新規記事を見る"
       saving: "保存している..."
-      saved: "保存した!"
+      saved: "保存しました"
       saved_draft: "下書き中のトピックがあります。編集を再開するには、こちらをクリックしてください。"
       uploading: "アップローディング..."
       show_preview: 'プレビューを表示&raquo;'
@@ -542,7 +542,7 @@ en:
 
     topics:
       none:
-        favorited: "お気に入りはまだ追加されていません。"
+        favorited: ""
         unread: "あなたは、未読のトピックを持っていない."
         new: "あなたは、新しい話題を持っていない."
         read: "あなたはまだ、任意のトピックを読んでいない."
@@ -1261,11 +1261,11 @@ en:
           blocked: 'ブロックされた ユーザー'
           banned: '禁止された ユーザ'
         reject_successful:
-          one: "Successfully rejected 1 user."
-          other: "Successfully rejected %{count} users."
+          one: ""
+          other: ""
         reject_failures:
-          one: "Failed to reject 1 user."
-          other: "Failed to reject %{count} users."
+          one: ""
+          other: ""
 
       user:
         ban_failed: "このユーザーを禁止する中にエラーが発生した{{error}}"

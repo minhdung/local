@@ -245,7 +245,7 @@ en:
 
   activation:
     already_done: "申し訳ありませんが、このアカウントの確認リンクが有効ではなくなりました。このアカウントが既にアクティブになりました。"
-    please_continue: "新規アカウントが確認されました。現在、ログインしています。%{link}をクリックしてください。"
+    please_continue: "アカウントの作成が完了しました。こちら %{link}をクリックして、さっそくトピックを作成しましょう。"
     welcome_to: " %{site_name}へようこそ!"
     approval_required: "このフォーラムにアクセスする前に新規アカウントはモデレータによって承認される必要があります。アカウントが承認された場合はお知らせメールを配信します!"
 
@@ -714,7 +714,7 @@ en:
     incorrect_username_email_or_password: "IDかパスワードが間違っています"
     wait_approval: "Thanks for signing up. We will notify you when your account has been approved."
     active: "Your account is activated and ready to use."
-    activate_email: "我々は <b>%{email}</b>にアクティベーション電子メールを送った。あなたのアカウントを有効にするために電子メールの指示に従ってください。"
+    activate_email: "アカウントの仮登録が完了しました。本登録用のメールを送りましたので、メールボックスを確認してください。メールが届いていない場合は、お手数ですが運営までご連絡ください。"
     not_activated: "You can't log in yet. We sent an activation email to you. Please follow the instructions in the email to activate your account."
     banned: "You can't log in until %{date}."
     errors: "%{errors}"
@@ -727,7 +727,7 @@ en:
     username:
       short: "must be longer than %{min} characters"
       long: "must be shorter than %{max} characters"
-      characters: "must only include numbers and letters"
+      characters: "ユーザーIDは半角英数のみ利用可能です。"
       unique: "must be unique"
       blank: "must be present"
       must_begin_with_alphanumeric: "must begin with a letter or number"
