@@ -163,8 +163,8 @@ en:
       sent_by_you: " <a href='{{userUrl}}'>you</a>の送信"
 
     user_action_groups:
-      "1": "いいね！したトピック"
-      "2": "いいね！されたトピック"
+      "1": "いいね！した"
+      "2": "いいね！された"
       "3": "ブックマーク"
       "4": "トピック"
       "5": "記事数"
@@ -180,12 +180,12 @@ en:
       said: "{{username}} 言った:"
       profile: プロフィール
       mute: ミュート
-      edit: 自己紹介
+      edit: プロフィール編集
       download_archive: ""
       private_message: "プライベートメッセージ"
       private_messages: "メッセージ"
       activity_stream: "アクティビティ"
-      preferences: "プリファレンス"
+      preferences: "プロフィール"
       bio: ""
       invited_by: "招待"
       trust_level: ""
@@ -313,7 +313,7 @@ en:
 
       password:
         title: "パスワード"
-        too_short: ""
+        too_short: "パスワードは6文字以上です"
         ok: "OK"
 
       ip_address:
@@ -826,7 +826,7 @@ en:
           like: "いいね！を取り消す"
           vote: "投票をアンドゥ"
         people:
-          off_topic: "{{icons}}オフトピックとしてこれをマークした"
+          off_topic: "{{icons}}関連性がないとしてこれをマークした"
           spam: "{{icons}}スパムとしてこれをマークした"
           inappropriate: "{{icons}}不適切としてこれをマーク"
           notify_moderators: "{{icons}}モデレーターを通知した"
@@ -847,8 +847,8 @@ en:
           vote: "この投稿に投票した"
         by_you_and_others:
           off_topic:
-            one: "あなたと他人の一人はオフトピックとしてこれにフラグを付けた"
-            other: "あなたと他人の{{count}}人はオフトピックとしてこれにフラグを付けた"
+            one: "あなたと他人の一人は関連性がないとしてこれにフラグを付けた"
+            other: "あなたと他人の{{count}}人は関連性がないとしてこれにフラグを付けた"
           spam:
             one: "あなたと他人の一人はスプムとしてこれにフラグを付けた"
             other: "あなたと他人の{{count}}人はスプムとしてこれにフラグを付けた"
@@ -872,8 +872,8 @@ en:
             other: "あなたと他人の{{count}}人がいいね！と言っています。　いいね！を取り消す"
         by_others:
           off_topic:
-            one: "一人はオフトピックとしてこれにフラグを付けた"
-            other: "{{count}}人はオフトピックとしてこれにフラグを付けた"
+            one: "一人は関連性がないとしてこれにフラグを付けた"
+            other: "{{count}}人は関連性がないとしてこれにフラグを付けた"
           spam:
             one: "一人はスプムとしてこれにフラグを付けた"
             other: "{{count}}人はスプムとしてこれにフラグを付けた"
