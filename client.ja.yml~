@@ -106,15 +106,15 @@ en:
       
     in_n_seconds:
       one: "1秒"
-      other: " {{count}} 1秒"
+      other: " {{count}} 秒前"
     in_n_minutes:
       one: "< 1分 "
-      other: "< {{count}} 分"
+      other: "< {{count}} 分前"
     in_n_hours:
       one: "< 1 時間"
       other: "< {{count}} 時間"
     in_n_days:
-      one: "< 1 日"
+      one: "< 1 日前"
       other: "< {{count}} 日前"
 
     suggested_topics:
@@ -617,7 +617,7 @@ en:
             other { {BOTH, select, true{and } false {are } other{}} <a href='/new'># new</a> topics}
         } remaining, or {CATEGORY, select, true {browse other topics in {catLink}} false {{latestLink}} other {}} "
 
-      browse_all_categories:  .すべてのカテゴリを見る
+      browse_all_categories:  すべてのカテゴリを見る. 
 
       view_latest_topics:  最新のトピックを見る.
       suggest_create_topic: トピックを作成する
