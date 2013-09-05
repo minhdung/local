@@ -428,7 +428,7 @@ en:
       title: "Privacy Policy"
       description: "Your site's privacy policy. Leave blank for default policy."
     faq:
-      title: "FAQ"
+      title: ""
       description: "Your site's FAQ. Leave blank for the default FAQ."
     login_required_welcome_message:
       title: "Login Required: Welcome Message"
@@ -1010,14 +1010,17 @@ en:
       read_more: "Read More"
 
     forgot_password:
-      subject_template: "[%{site_name}] パスワード を リセットする"
+      subject_template: "[%{site_name}] パスワードリセット"
       text_body_template: |
-        誰かがあなたのパスワードをリセットする [%{site_name}](%{base_url}) に 頼んだ 。
 
-        
-
-        新しいパスワードを選択するには、次のリンクをクリックしてください。
         %{base_url}/users/password-reset/%{email_token}
+            ※一定期間おいてからアクセスした場合は、もう一度行う場合がありますので、ご了承ください。
+            ※URLをコピーして使用する場合は、最後までコピーしてください。
+
+        =================================================================
+        ミツプリ
+        http://meets3dprint.com/
+        e-mail：contact@3d-printer-studio.com
 
     authorize_email:
       subject_template: "[%{site_name}] 新しいメールアドレスを確認してください"
@@ -1045,14 +1048,21 @@ en:
         Enjoy your stay!
 
     signup:
-      subject_template: "[%{site_name}] が 新しいアカウントをアクティブします"
+      subject_template: "[%{site_name}] 仮登録が完了しました"
       text_body_template: |
-        
+        この度は、ミツプリにご登録頂きありがとうございます。
+        現在は、仮登録の段階です。
+        下記、本登録用のURLにアクセスして頂く事で「本登録」が完了致します。
 
-        新しいアカウントを確認し、アクティブにするには、次のリンクをクリックする:
         %{base_url}/users/activate-account/%{email_token}
 
-        上記のリンクがクリックされていない場合は、コピーしてWebブラウザのアドレスバーに貼り付けてみてください。
+           ※仮登録のままでは、本サービスをご利用頂く事は出来ません。
+        また、一定期間おいてからアクセスした場合は、再度登録を頂く場合がありますので、ご了承ください。
+           ※URLをコピーして使用する場合は、最後までコピーしてください。
+        =================================================================
+        ミツプリ
+        http://meets3dprint.com/
+        e-mail：contact@3d-printer-studio.com
 
   discourse_hub:
     access_token_problem: "Tell an admin: Please update the site settings to include the correct discourse_org_access_key."
