@@ -158,7 +158,7 @@ en:
 
   datetime:
     distance_in_words:
-      half_a_minute: "<1分以内"
+      half_a_minute: "1分以内"
       less_than_x_seconds:
         one:   "< 1秒前"
         other: "< %{count}秒前"
