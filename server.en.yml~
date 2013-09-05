@@ -160,38 +160,38 @@ en:
     distance_in_words:
       half_a_minute: "< 1分"
       less_than_x_seconds:
-        one:   "< 1秒"
-        other: "< %{count}秒"
+        one:   "< 1秒前"
+        other: "< %{count}秒前"
       x_seconds:
         one:   "1秒"
-        other: "%{count}秒"
+        other: "%{count}秒前"
       less_than_x_minutes:
-        one:   "< 1分"
-        other: "< %{count}分"
+        one:   "< 1分前"
+        other: "< %{count}分前"
       x_minutes:
         one:   "1分"
-        other: "%{count}分"
+        other: "%{count}分前"
       about_x_hours:
         one:   "1時間"
-        other: "%{count}時間"
+        other: "%{count}時間前"
       x_days:
-        one:   "1日"
-        other: "%{count}日"
+        one:   "1日前"
+        other: "%{count}日前"
       about_x_months:
         one:   "1ヶ月"
-        other: "%{count}ヶ月"
+        other: "%{count}ヶ月前"
       x_months:
         one:   "1ヶ月"
-        other: "%{count}ヶ月"
+        other: "%{count}ヶ月前"
       about_x_years:
         one:   "1年"
-        other: "%{count}年"
+        other: "%{count}年前"
       over_x_years:
-        one:   "> 1年"
-        other: "> %{count}年"
+        one:   "> 1年前"
+        other: "> %{count}年前"
       almost_x_years:
         one:   "1年"
-        other: "%{count}年"
+        other: "%{count}年前"
 
     distance_in_words_verbose:
       half_a_minute: "今さっき"
@@ -1012,6 +1012,12 @@ en:
     forgot_password:
       subject_template: "[%{site_name}] パスワードリセット"
       text_body_template: |
+        このメールは自動的に送信されております。
+        尚、このメールにお心当たりがない場合は、そのまま削除してください。
+        また、ご不明点がありましたら、contact@3d-printer-studio.comへご連絡ください。
+        ------------------------------------------------------------------
+
+        ミツプリのパスワード再発行用URLはこちらです。
 
         %{base_url}/users/password-reset/%{email_token}
             ※一定期間おいてからアクセスした場合は、もう一度行う場合がありますので、ご了承ください。

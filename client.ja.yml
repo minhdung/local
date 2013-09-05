@@ -38,7 +38,7 @@ en:
           one: "1時間"
           other: "%{count}時間前"
         x_days:
-          one: "1日"
+          one: "1日前"
           other: "%{count}日前"
         about_x_years:
           one: "1年"

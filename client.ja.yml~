@@ -57,7 +57,7 @@ en:
           one: "1時間"
           other: "%{count} 時間"
         x_days:
-          one: "1日"
+          one: "1日間"
           other: "%{count} 日前"
       medium_with_ago:
         x_minutes:
