@@ -158,7 +158,7 @@ en:
 
   datetime:
     distance_in_words:
-      half_a_minute: "<1分以内"
+      half_a_minute: "1分以内"
       less_than_x_seconds:
         one:   "< 1秒前"
         other: "< %{count}秒前"
@@ -677,12 +677,12 @@ en:
 
   search:
     types:
-      category: 'Categories'
-      topic: 'Topics'
-      user: 'Users'
+      category: ''
+      topic: ''
+      user: ''
 
-  original_poster: "Original Poster"
-  most_posts: "Most Posts"
+  original_poster: ""
+  most_posts: ""
   most_recent_poster: "Most Recent Poster"
   frequent_poster: "Frequent Poster"
 

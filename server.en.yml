@@ -677,14 +677,14 @@ en:
 
   search:
     types:
-      category: 'Categories'
-      topic: 'Topics'
-      user: 'Users'
+      category: ''
+      topic: ''
+      user: ''
 
-  original_poster: "Original Poster"
-  most_posts: "Most Posts"
-  most_recent_poster: "Most Recent Poster"
-  frequent_poster: "Frequent Poster"
+  original_poster: ""
+  most_posts: ""
+  most_recent_poster: ""
+  frequent_poster: ""
 
   move_posts:
     new_topic_moderator_post:

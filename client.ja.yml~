@@ -29,8 +29,8 @@ en:
           one: "1秒前"
           other: "%{count}秒前"
         less_than_x_minutes:
-          one: "< 1分前"
-          other: "< %{count}分前"
+          one: "1分以内"
+          other: "< %{count}1分以内"
         x_minutes:
           one: "1分"
           other: "%{count}分前"
@@ -38,7 +38,7 @@ en:
           one: "1時間"
           other: "%{count}時間前"
         x_days:
-          one: "1日"
+          one: "1日前"
           other: "%{count}日前"
         about_x_years:
           one: "1年"
@@ -201,7 +201,7 @@ en:
         success: "(電子メールが送信)"
         in_progress: "(メールを送信)"
         error: "(エラー)"
-        action: "Send Password Reset Email"
+        action: ""
 
       change_about:
         title: "自己紹介の変更"
@@ -334,7 +334,7 @@ en:
         the_topic: "トピック"
 
     loading: "Loading..."
-    close: "クローズ"
+    close: "閉じる"
     learn_more: "もっと学習..."
 
     year: '年'
@@ -375,9 +375,9 @@ en:
     forgot_password:
       title: "パスワードを忘れた"
       action: "パスワードを忘れた場合はこちら"
-      invite: "ユーザー名、もしくはメールアドレスを入力して、あなたにパスワードリセットメールを送信する"
+      invite: "ユーザー名かメールアドレスを入力してください"
       reset: "パスワードのリセット"
-      complete: "アカウントがそのユーザー名または電子メールアドレスと一致した場合、すぐにパスワードをリセットする方法の手順のメールを受信する"
+      complete: "パスワードリセットのメールを送りました。"
 
     login:
       title: "ログイン"
@@ -430,7 +430,7 @@ en:
 
       error:
         title_missing: "タイトルは必須です"
-        title_too_short: "タイトルは少なくとも{{min}}文字の長さが必要だ"
+        title_too_short: "本文は少なくとも{{min}}文字の長さが必要だ"
         title_too_long: "タイトルは{{max}}文字未満でなければならない"
         post_missing: "本文は必須です"
         post_length: "本文は{{min}}文字以上が必要です"
@@ -538,7 +538,7 @@ en:
       title: 'お気に入り'
       help:
         star: 'お気に入りリストにこのトピックを追加'
-        unstar: 'お気に入りリストにこのトピックを削除'
+        unstar: 'お気に入りリストにこの削除する'
 
     topics:
       none:
@@ -549,7 +549,7 @@ en:
         posted: "あなたはまだ、任意のトピックに掲載されていない."
         latest: "最新のトピックがありません。それは悲しいことだ."
         hot: "ホットな話題はありません."
-        category: "There are no {{category}} topics."
+        category: ". すべてのカテゴリを見る "
       bottom:
         latest: ""
         hot: "もうホットな話題ではありません."
@@ -617,9 +617,9 @@ en:
             other { {BOTH, select, true{and } false {are } other{}} <a href='/new'># new</a> topics}
         } remaining, or {CATEGORY, select, true {browse other topics in {catLink}} false {{latestLink}} other {}} "
 
-      browse_all_categories: . すべてのカテゴリを見る . 
+      browse_all_categories:  .すべてのカテゴリを見る
 
-      view_latest_topics: 最新のトピックを見る .
+      view_latest_topics:  .最新のトピックを見る
       suggest_create_topic: トピックを作成する
       read_position_reset: "現在の位置がリセットされた."
       jump_reply_up: 以前の返信にジャンプ
@@ -759,7 +759,7 @@ en:
           other: " <b>{{count}}</b>記事を選択した"
 
     post:
-      reply: " {{replyAvatar}} {{username}}によって{{link}}にて返信"
+      reply: "返信"
       reply_topic: " {{link}}に返信"
       quote_reply: "返信を引用"
       edit: "{{replyAvatar}} {{username}}によって{{link}}を編集"
@@ -790,7 +790,7 @@ en:
         image_upload_not_allowed_for_new_user: "新規ユーザーが画像をアップロードすることはできない"
         attachment_upload_not_allowed_for_new_user: "新規ユーザーがファイルを添付することはできない"
 
-      abandon: "このトピックを削除しますか？"
+      abandon: "削除しますか？"
 
       archetypes:
         save: 'オプションを保存'
@@ -1028,7 +1028,7 @@ en:
           other: "{{categoryName}} ({{count}})"
         help: " {{categoryName}}の最新のトピック"
 
-    browser_update: '残念ながら, <a href="http://www.discourse.org/faq/#browser">お使いのブラウザは古すぎる</a>. Please <a href="http://browsehappy.com">ブラウザをアップグレードしてください</a>.'
+    browser_update: '残念ながら, <a href="http://www.discourse.org/faq/#browser">お使いのブラウザは古すぎる</a><a href="http://browsehappy.com">ブラウザをアップグレードしてください</a>.'
 
     permission_types:
       full: "作る / 返信 / 見る"
@@ -1092,12 +1092,12 @@ en:
         defer: "延期"
         defer_title: "アクションしないでください。すべてのアクションを延期し、又は決してしないでください"
         delete_post: "記事を削除"
-        delete_post_title: "記事を削除。最初の記事であれば、トピックを削除"
+        delete_post_title: "記事を削除。最初の記事であれば、削除する"
         disagree_unhide: "同意しない(記事表示)"
         disagree_unhide_title: "この記事のすべてのフラグを削除し、記事を再表示"
         disagree: "同意しない"
         disagree_title: "フラグに同意しない。この記事のすべてのフラグを削除"
-        delete_spammer_title: "ユーザーとそのユーザーのすべての記事やトピックを削除"
+        delete_spammer_title: "ユーザーとそのユーザーのすべての記事や削除する"
 
         flagged_by: "によってフラグが付けられた"
         error: "エラーが発生した"
@@ -1197,26 +1197,26 @@ en:
           context: "コンテキスト"
           details: "細部"
           ip_address: "IP"
-          previous_value: "Previous"
-          new_value: "New"
-          diff: "Diff"
-          show: "Show"
-          modal_title: "Details"
-          no_previous: "There is no previous value."
-          deleted: "No new value. The record was deleted."
+          previous_value: ""
+          new_value: ""
+          diff: ""
+          show: ""
+          modal_title: ""
+          no_previous: ""
+          deleted: ""
           actions:
             delete_user: "ユーザーを削除する"
             change_trust_level: "信頼レベルを変更する"
-            change_site_setting: "change site setting"
-            change_site_customization: "change site customization"
-            delete_site_customization: "delete site customization"
+            change_site_setting: ""
+            change_site_customization: ""
+            delete_site_customization: ""
         screened_emails:
-          title: "Screened Emails"
-          description: "When someone tries to create a new account, the following email addresses will be checked and the registration will be blocked, or some other action performed."
-          email: "Email Address"
+          title: ""
+          description: ""
+          email: ""
         screened_urls:
-          title: "Screened URLs"
-          description: "The URLs listed here were used in posts by users who have been identified as spammers."
+          title: ""
+          description: ""
           url: "URL"
 
       impersonate:
