@@ -21,44 +21,44 @@ en:
             tb: TB
     dates:
       tiny:
-        half_a_minute: "< 1分"
+        half_a_minute: "1分以内"
         less_than_x_seconds:
-          one: "< 1秒"
-          other: "< %{count}秒"
+          one: "< 1秒前"
+          other: "< %{count}秒前"
         x_seconds:
-          one: "1秒"
-          other: "%{count}秒"
+          one: "1秒前"
+          other: "%{count}秒前"
         less_than_x_minutes:
-          one: "< 1分"
-          other: "< %{count}分"
+          one: "< 1分前"
+          other: "< %{count}分前"
         x_minutes:
           one: "1分"
-          other: "%{count}分"
+          other: "%{count}分前"
         about_x_hours:
           one: "1時間"
-          other: "%{count}時間"
+          other: "%{count}時間前"
         x_days:
           one: "1日"
-          other: "%{count}日"
+          other: "%{count}日前"
         about_x_years:
           one: "1年"
-          other: "%{count}年"
+          other: "%{count}年前"
         over_x_years:
           one: "> 1年"
-          other: "> %{count}年"
+          other: "> %{count}年前"
         almost_x_years:
           one: "1年"
-          other: "%{count}年"
+          other: "%{count}年前"
       medium:
         x_minutes:
           one: "1分"
-          other: "%{count} 分"
+          other: "%{count} 分前"
         x_hours:
           one: "1時間"
           other: "%{count} 時間"
         x_days:
           one: "1日"
-          other: "%{count} 日"
+          other: "%{count} 日前"
       medium_with_ago:
         x_minutes:
           one: "１分前"
@@ -72,7 +72,7 @@ en:
     share:
       topic: 'このトピックのリンクを共有する'
       post: 'このトピックのリンクを共有する'
-      close: 'クローズ'
+      close: '閉じる'
       twitter: 'Twitterでこのリンクを共有する'
       facebook: 'Facebookでこのリンクを共有する'
       google+: 'Google+でこのリンクを共有する'
@@ -146,12 +146,12 @@ en:
         placeholder: "ここにトピックのタイトルを入力"
 
     user_action:
-      user_posted_topic: "<a href='{{userUrl}}'>{{user}}</a> が  <a href='{{topicUrl}}'>ピック</a> を 投稿"
-      you_posted_topic: "<a href='{{userUrl}}'>あなた</a> は <a href='{{topicUrl}}'>ピック</a>  を 投稿"
-      user_replied_to_post: "<a href='{{userUrl}}'>{{user}}</a> が　<a href='{{postUrl}}'>{{post_number}}</a>　へ返信"
-      you_replied_to_post: "<a href='{{userUrl}}'>あなた</a> は  <a href='{{postUrl}}'>{{post_number}}</a> を 投稿"
-      user_replied_to_topic: "<a href='{{userUrl}}'>{{user}}</a> が<a href='{{topicUrl}}'>the topic</a>　に答え"
-      you_replied_to_topic: "<a href='{{userUrl}}'>あなた</a> が<a href='{{topicUrl}}'>トピック</a> に答え"
+      user_posted_topic: "<a href='{{userUrl}}'>{{user}}</a>の<a href='{{topicUrl}}'>投稿</a>"
+      you_posted_topic: "<a href='{{userUrl}}'>あなた</a> の <a href='{{topicUrl}}'>投稿</a>"
+      user_replied_to_post: "<a href='{{userUrl}}'>{{user}}</a> の　<a href='{{postUrl}}'>投稿</a>"
+      you_replied_to_post: "<a href='{{userUrl}}'>あなた</a>の<a href='{{postUrl}}'>{{post_number}}</a>投稿"
+      user_replied_to_topic: "<a href='{{userUrl}}'>{{user}}</a> の<a href='{{topicUrl}}'>投稿</a>"
+      you_replied_to_topic: "<a href='{{userUrl}}'>あなた</a> の<a href='{{topicUrl}}'>投稿</a>"
 
       user_mentioned_user: "<a href='{{user1Url}}'>{{user}}</a> が <a href='{{user2Url}}'>{{another_user}}</a>に言及"
       user_mentioned_you: "<a href='{{user1Url}}'>{{user}}</a> が <a href='{{user2Url}}'>あなた</a>に言及"
@@ -163,8 +163,8 @@ en:
       sent_by_you: " <a href='{{userUrl}}'>you</a>の送信"
 
     user_action_groups:
-      "1": "好きな"
-      "2": "受信好き"
+      "1": "いいね！したトピック"
+      "2": "いいね！されたトピック"
       "3": "ブックマーク"
       "4": "トピック"
       "5": "記事数"
@@ -180,7 +180,7 @@ en:
       said: "{{username}} 言った:"
       profile: プロフィール
       mute: ミュート
-      edit: プリファレンスを編集
+      edit: プロフィール編集
       download_archive: ""
       private_message: "プライベートメッセージ"
       private_messages: "メッセージ"
@@ -188,11 +188,11 @@ en:
       preferences: "プリファレンス"
       bio: ""
       invited_by: "招待"
-      trust_level: "信頼 レベル"
+      trust_level: ""
       notifications: "通知"
-      dynamic_favicon: " faviconに受信メッセージの通知を表示"
-      external_links_in_new_tab: "内部リンクを新しいタブで開く"
-      enable_quoting: "ハイライトされたテキストのため​​返信を引用できる"
+      dynamic_favicon: ""
+      external_links_in_new_tab: ""
+      enable_quoting: ""
       change: "変更"
       moderator: "{{user}}  は   モデレーター   である"
       admin: "{{user}} は   アドミン   である"
@@ -229,21 +229,21 @@ en:
 
       email:
         title: "メール"
-        instructions: "あなたのメールは非公開される。"
+        instructions: "メールアドレスは非公開です。"
         ok: "よさそうだ。確認するために、メールでお知らせする"
         invalid: "有効なメールアドレスを入力してください。"
         authenticated: "あなたのメールアドレスは{{provider}}によって認証されている。"
-        frequency: "あなたはこちらからのメールを見ていない場合とあなたを最近見ていない場合のみメールでお知らせする。"
+        frequency: ""
 
       name:
-        title: "名前"
-        instructions: "あなたのお名前の長いバージョンで、一意である必要はない。＠名前マッチングの代替に使用され、自分のユーザーページに表示される。"
+        title: "表示名"
+        instructions: "プロフィールページで表示されます。"
         too_short: "名前が短すぎる。"
         ok: "よさそうだ。"
       username:
         title: "ユーザー名"
         instructions: "一意である必要があり, 空白文字は含めない. 他人は@ユーザー名を使って、あなたに言及する。"
-        short_instructions: "他人は@{{username}}を使って、あなたに言及する。"
+        short_instructions: "他人は@{{username}}が含まれていると通知されます。"
         available: "ユーザー名が利用可能だ。"
         global_match: "メールは登録されたユーザ名と一致する"
         global_mismatch: "既に登録した。{{suggestion}}を試しください"
@@ -264,18 +264,18 @@ en:
       website: "ウェブサイト"
       email_settings: "メール"
       email_digests:
-        title: "サイトに訪ねない時、新しいものを電子メールダイジェストでお知らせください。"
+        title: ""
         daily: "日々"
         weekly: "毎週"
         bi_weekly: "隔週"
 
-      email_direct: "他人があなたの投稿に返信し、引用し、@ユーザー名を言及する時、電子メールを受け取る"
-      email_private_messages: "他人があなたにプライベートメッセージを送信する時、電子メールを受け取る"
+      email_direct: ""
+      email_private_messages: ""
 
-      other_settings: "その他"
+      other_settings: ""
 
       new_topic_duration:
-        label: "これは新規トピック"
+        label: ""
         not_viewed: "まだ見ていない"
         last_here: "最後アクセスの時から、投稿された"
         after_n_days:
@@ -285,7 +285,7 @@ en:
           one: "最終週に投稿された"
           other: "最後の{{count}} 週間に投稿された"
 
-      auto_track_topics: "自動的に入るトピックを追跡する"
+      auto_track_topics: ""
       auto_track_options:
         never: "ネヴァー"
         always: "いつも"
@@ -319,8 +319,8 @@ en:
       ip_address:
         title: "最後IPアドレス"
       avatar:
-        title: "アバター"
-        instructions: ""
+        title: "アイコン"
+        instructions: "メールアドレスの基づいて、アイコンはGravatarが使用されます"
       title:
         title: "タイトル"
 
@@ -381,7 +381,7 @@ en:
 
     login:
       title: "ログイン"
-      username: "ログイン"
+      username: "ID"
       password: "パスワード"
       email_placeholder: "メールアドレス又はユーザー名"
       error: "不明なエラー"
@@ -433,7 +433,7 @@ en:
         title_too_short: "タイトルは少なくとも{{min}}文字の長さが必要だ"
         title_too_long: "タイトルは{{max}}文字未満でなければならない"
         post_missing: "本文は必須です"
-        post_length: "記事は少なくとも{{min}}文字の長さが必要だ"
+        post_length: "本文は{{min}}文字以上が必要です"
         category_missing: "カテゴリを選択する必要がある"
 
       save_edit: "編集保存"
@@ -450,7 +450,7 @@ en:
       view_new_post: "あなたの新規記事を見る"
       saving: "保存している..."
       saved: "保存した!"
-      saved_draft: "進行中のポストドラフトがある。 編集を再開するには、このボックス内の任意の場所をクリックしてください"
+      saved_draft: "下書き中のトピックがあります。編集を再開するには、こちらをクリックしてください。"
       uploading: "アップローディング..."
       show_preview: 'プレビューを表示&raquo;'
       hide_preview: '&laquo; プレビューを非表示'
@@ -487,8 +487,8 @@ en:
 
     notifications:
       title: "@名前を言及、記事やトピックに返信、プライベートメッセージ等の通知"
-      none: "あなたは今、何の通知もありません。"
-      more: "古い通知を表示"
+      none: ""
+      more: ""
       mentioned: "<span title='mentioned' class='icon'>@</span> {{username}} {{link}}"
       quoted: "<i title='quoted' class='icon icon-quote-right'></i> {{username}} {{link}}"
       replied: "<i title='replied' class='icon icon-reply'></i> {{username}} {{link}}"
@@ -542,7 +542,7 @@ en:
 
     topics:
       none:
-        favorited: "あなたはまだ、任意のトピックをお気に入りに追加していない。 お気に入りのトピックに、クリックするか、タイトルの横にある星をタップします。"
+        favorited: "お気に入りはまだ追加されていません。"
         unread: "あなたは、未読のトピックを持っていない."
         new: "あなたは、新しい話題を持っていない."
         read: "あなたはまだ、任意のトピックを読んでいない."
@@ -598,8 +598,8 @@ en:
       options: "トピックオプション"
       show_links: "このトピック内のリンクを表示"
       toggle_information: "トグルトピックの詳細"
-      read_more_in_category: "もっと見たいか? {{catLink}} 又は {{latestLink}}から他のトピックをブラウズ"
-      read_more: "もっと見たいか? {{catLink}}　又は {{latestLink}}."
+      read_more_in_category: "{{catLink}} {{latestLink}}"
+      read_more: " {{catLink}} {{latestLink}}"
 
       # keys ending with _MF use message format, see /spec/components/js_local_helper_spec.rb for samples
       read_more_MF: "There {
@@ -617,9 +617,9 @@ en:
             other { {BOTH, select, true{and } false {are } other{}} <a href='/new'># new</a> topics}
         } remaining, or {CATEGORY, select, true {browse other topics in {catLink}} false {{latestLink}} other {}} "
 
-      browse_all_categories: すべてのカテゴリを見る .
+      browse_all_categories: . すべてのカテゴリを見る . 
 
-      view_latest_topics: 最新のトピックを見る
+      view_latest_topics: 最新のトピックを見る .
       suggest_create_topic: トピックを作成する
       read_position_reset: "現在の位置がリセットされた."
       jump_reply_up: 以前の返信にジャンプ
@@ -705,11 +705,11 @@ en:
 
       invite_reply:
         title: '友達を招待する'
-        action: '招待メール'
+        action: '招待メールを送る'
         help: '友達が招待メールを受信、シングルクリックで、このトピックに返信することができる'
         email: "友達にトピックを見てもらいましょう！メールアドレスを入力してください。"
         email_placeholder: 'メールアドレス'
-        success: "ありがとう! <b>{{email}}</b>にてメールを送信する。その人が招待を受信したら、連絡する。招待しれた人を追跡するためあなたのユーザーページの招待タブをチェックしてください。"
+        success: "<b>{{email}}</b>に招待メールを送りました。"
         error: "申し訳ありませんが、その人を招待することができない。すでにユーザーになった?"
 
       login_reply: 'ログインして返信する'
@@ -865,8 +865,8 @@ en:
             one: "あなたと他人の一人はこの記事をブックマークした"
             other: "あなたと他人の{{count}}人はこの記事をブックマークした"
           like:
-            one: "あなたと他人の一人はこれがいいね！"
-            other: "あなたと他人の{{count}}人はこれがいいね！"
+            one: "あなたと他人の一人はいいね！と言っています。　いいね！を取り消す"
+            other: "あなたと他人の{{count}}人はいいね！と言っています。　いいね！を取り消す"
           vote:
             one: "あなたと他人の一人はこの記事に投票した"
             other: "あなたと他人の{{count}}人がいいね！と言っています。　いいね！を取り消す"
@@ -890,8 +890,8 @@ en:
             one: "一人はこの記事をブックマークした"
             other: "{{count}}人はこの記事をブックマークした"
           like:
-            one: "1人がこのことを言ってい"
-            other: "{{count}} 人がこのことを言ってい"
+            one: "1人がいいね！と言っています。"
+            other: "{{count}} 人がいいね！と言っています。"
           vote:
             one: "1人がこの記事に投票した"
             other: "{{count}}人がこの記事に投票した"

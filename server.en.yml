@@ -6,7 +6,7 @@
 
 en:
   dates:
-    short_date_no_year: "D/M"
+    short_date_no_year: "M/D"
     short_date: "D/M/YYYY"
     long_date: "MMMM D, YYYY h:mma"
   time:
@@ -122,8 +122,8 @@ en:
               cant_send_pm: "申し訳ありませんが、そのユーザーにプライベートメッセージを送信することはできません。"
 
   user_profile:
-    no_info_me: "<div class='missing-profile'>プロファイルの自己紹介フィールドは空白です。 <a href='/users/%{username_lower}/preferences/about-me'>に記入しますか?</a></div>"
-    no_info_other: "<div class='missing-profile'>%{name} は自分のプロファイルの自己紹介フィールドに何も記入しませんでした。</div>"
+    no_info_me: "<div class='missing-profile'> <a href='/users/%{username_lower}/preferences/about-me'>プロフィールを書いてみましょう</a></div>"
+    no_info_other: "<div class='missing-profile'></div>"
 
   category:
     topic_prefix: "カテゴリ定義%{category}"
@@ -251,7 +251,7 @@ en:
 
   post_action_types:
     off_topic:
-      title: 'オフトピック'
+      title: '関連性がない'
       description: '例えば料理のレシピやペットの成長記録が主旨になっている。'
       long_form: 'オフトピックとしてフラグが付けられます。'
     spam:
@@ -711,7 +711,7 @@ en:
 
   login:
     not_approved: "Your account hasn't been approved yet. You will be notified by email when you are ready to log in."
-    incorrect_username_email_or_password: "Incorrect username, email or password"
+    incorrect_username_email_or_password: "IDかパスワードが間違っています"
     wait_approval: "Thanks for signing up. We will notify you when your account has been approved."
     active: "Your account is activated and ready to use."
     activate_email: "我々は <b>%{email}</b>にアクティベーション電子メールを送った。あなたのアカウントを有効にするために電子メールの指示に従ってください。"
@@ -736,15 +736,19 @@ en:
       blocked: "is not allowed."
 
   invite_mailer:
-    subject_template: "[%{site_name}] %{invitee_name} invited you to join a discussion on %{site_name}"
+    subject_template: "[%{site_name}] %{invitee_name} さんがあなたを招待しています"
     text_body_template: |
-      %{invitee_name} invited you to the topic "%{topic_title}" at %{site_name}.
-
-      If you're interested, click the link below to visit the discussion:
+      %{invitee_name}さんが3Dプリンターのコミュニティ掲示板『%{site_name}』の "%{topic_title}" を見てほしいと言っています.
+     
 
       [Visit %{site_name}][1]
-
-      You were invited by a trusted user, so you'll be able to post a reply immediately, without needing to log in.
+        ※見るだけなら会員登録は必要ありません。
+        ※返信には会員登録が必要です。
+          ※このメールにお心当たりがない場合は、そのまま削除してください
+      ---
+      [%{site_name}][1]
+      http://meets3dprint.com/
+      e-mail：contact@3d-printer-studio.com
 
       [1]: %{invite_link}
 
