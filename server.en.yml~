@@ -122,7 +122,7 @@ en:
               cant_send_pm: "申し訳ありませんが、そのユーザーにプライベートメッセージを送信することはできません。"
 
   user_profile:
-    no_info_me: "<div class='missing-profile'>プロファイルの自己紹介フィールドは空白です。 <a href='/users/%{username_lower}/preferences/about-me'>に記入しますか?</a></div>"
+    no_info_me: "<div class='missing-profile'> <a href='/users/%{username_lower}/preferences/about-me'>プロフィールを書いてみましょう</a></div>"
     no_info_other: "<div class='missing-profile'></div>"
 
   category:
