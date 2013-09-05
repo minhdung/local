@@ -1006,19 +1006,19 @@ en:
       read_more: "Read More"
 
     forgot_password:
-      subject_template: "[%{site_name}] Password reset"
+      subject_template: "[%{site_name}] パスワード を リセットする"
       text_body_template: |
-        Somebody asked to reset your password on [%{site_name}](%{base_url}).
+        誰かがあなたのパスワードをリセットする [%{site_name}](%{base_url}) に 頼んだ 。
 
-        If it was not you, you can safely ignore this email.
+        
 
-        Click the following link to choose a new password:
+        新しいパスワードを選択するには、次のリンクをクリックしてください。
         %{base_url}/users/password-reset/%{email_token}
 
     authorize_email:
-      subject_template: "[%{site_name}] Confirm your new email address"
+      subject_template: "[%{site_name}] 新しいメールアドレスを確認してください"
       text_body_template: |
-        Confirm your new email address for %{site_name} by clicking on the following link:
+        次のリンクをクリックして、％{SITE_NAME}の新しいメールアドレスを確認してください
 
         %{base_url}/users/authorize-email/%{email_token}
 
