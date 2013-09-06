@@ -558,7 +558,7 @@ en:
         new: "これ以上新しいトピックはありません."
         unread: "もう未読のトピックはありません."
         favorited: ""
-        category: "これ以上 {{category}} トピック はありません."
+        category: ""
 
     rank_details:
       toggle: トグルトピックランキングの詳細
