@@ -190,7 +190,7 @@ en:
         one:   "> 1年前"
         other: "> %{count}年前"
       almost_x_years:
-        one:   "1年"
+        one:   "1年前"
         other: "%{count}年前"
 
     distance_in_words_verbose:
