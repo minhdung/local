@@ -245,7 +245,7 @@ en:
 
   activation:
     already_done: "申し訳ありませんが、このアカウントの確認リンクが有効ではなくなりました。このアカウントが既にアクティブになりました。"
-    please_continue: "アカウントの作成が完了しました。こちら %{link}をクリックして、さっそくトピックを作成しましょう。"
+    please_continue: "アカウントの作成が完了しました。<a href='{{link}}'>こちら</a>をクリックして、さっそくトピックを作成しましょう。"
     welcome_to: " %{site_name}へようこそ!"
     approval_required: "このフォーラムにアクセスする前に新規アカウントはモデレータによって承認される必要があります。アカウントが承認された場合はお知らせメールを配信します!"
 
@@ -736,7 +736,7 @@ en:
   invite_mailer:
     subject_template: "[%{site_name}] %{invitee_name} さんがあなたを招待しています"
     text_body_template: |
-      %{invitee_name}さんが3Dプリンターのコミュニティ掲示板『%{site_name}』の "%{topic_title}" を見てほしいと言っています.<br>
+      %{invitee_name}さんが3Dプリンターのコミュニティ掲示板『%{site_name}』の "%{topic_title}" を見てほしいと言っています.<br><br><br>
      
 
 
