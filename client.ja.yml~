@@ -482,7 +482,7 @@ en:
       toggler: "コンポーザーパネルを表示または非表示"
 
       admin_options_title: "このトピックのためのオプションスタッフを設定"
-      auto_close_label: "トピックを自動的にクローズ:"
+      auto_close_label: "トピックを自動的に閉じる:"
       auto_close_units: "日"
 
     notifications:
@@ -558,7 +558,7 @@ en:
         new: "これ以上新しいトピックはありません."
         unread: "もう未読のトピックはありません."
         favorited: ""
-        category: "これ以上 {{category}} トピック はありません."
+        category: ""
 
     rank_details:
       toggle: トグルトピックランキングの詳細
@@ -614,10 +614,10 @@ en:
       deleted: "トピックは削除されました"
 
       auto_close_notice: "%{timeLeft}後で自動的に閉じる"
-      auto_close_title: '自動クローズ設定'
+      auto_close_title: '自動閉じる設定'
       auto_close_save: "保存"
       auto_close_cancel: "キャンセル"
-      auto_close_remove: "このトピックは自動クローズしないでください"
+      auto_close_remove: "このトピックは自動閉じしないでください"
 
       progress:
         title: トピックのプログレス
@@ -656,7 +656,7 @@ en:
         recover: "トピックを回復"
         delete: "削除する"
         open: "トピックをオープン"
-        close: "トピックをクローズ"
+        close: "トピックを閉じる"
         auto_close: "自動クローズ"
         unpin: "トピックをアンピン"
         pin: "トピックをピン"
@@ -810,7 +810,7 @@ en:
           spam: "報告を取り消す"
           inappropriate: "報告を取り消す"
           bookmark: "ブックマークをアンドゥ"
-          like: ""
+          like: "いいね！を取り消す"
           vote: "投票をアンドゥ"
         people:
           off_topic: "{{icons}}関連性がないとしてこれをマークした"
@@ -924,7 +924,7 @@ en:
       hotness: "トピックのホットさ"
       already_used: 'この色は別のカテゴリで使用されている'
       security: "セキュリティー"
-      auto_close_label: ":後でトピックを自動クローズ"
+      auto_close_label: ":後でトピックを自動閉じる"
       edit_permissions: "権限を編集"
       add_permission: "権限を追加"
 
