@@ -1013,25 +1013,25 @@ en:
         このメールは自動的に送信されております。<br>
         尚、このメールにお心当たりがない場合は、そのまま削除してください。<br>
         また、ご不明点がありましたら、contact@3d-printer-studio.comへご連絡ください。<br>
-        ------------------------------------------------------------------<br><br>
+        ------------------------------------------------------------------<br><br><br>
 
-        ミツプリのパスワード再発行用URLはこちらです。<br>
+        ミツプリのパスワード再発行用URLはこちらです。<br><br>
 
         %{base_url}/users/password-reset/%{email_token}<br>
             ※一定期間おいてからアクセスした場合は、もう一度行う場合がありますので、ご了承ください。<br>
-            ※URLをコピーして使用する場合は、最後までコピーしてください。<br>
+            ※URLをコピーして使用する場合は、最後までコピーしてください。<br><br>
 
         =================================================================<br><br>
         ミツプリ<br>
         http://meets3dprint.com/ <br>
-        e-mail：contact@3d-printer-studio.com<br>
+        e-mail：contact@3d-printer-studio.com<br><br>
 
     authorize_email:
       subject_template: "[%{site_name}] 新しいメールアドレスを確認してください"
       text_body_template: |
         次のリンクをクリックして、％{SITE_NAME}の新しいメールアドレスを確認してください<br>
 
-        %{base_url}/users/authorize-email/%{email_token}<br>
+        %{base_url}/users/authorize-email/%{email_token}<br><br>
 
     signup_after_approval:
       subject_template: "You've been approved on %{site_name}!"
@@ -1056,9 +1056,9 @@ en:
       text_body_template: |
         この度は、ミツプリにご登録頂きありがとうございます。<br>
         現在は、仮登録の段階です。<br>
-        下記、本登録用のURLにアクセスして頂く事で「本登録」が完了致します。<br>
+        下記、本登録用のURLにアクセスして頂く事で「本登録」が完了致します。<br><br>
 
-        %{base_url}/users/activate-account/%{email_token}<br>
+        %{base_url}/users/activate-account/%{email_token}<br><br>
 
            ※仮登録のままでは、本サービスをご利用頂く事は出来ません。<br>
         また、一定期間おいてからアクセスした場合は、再度登録を頂く場合がありますので、ご了承ください。<br>

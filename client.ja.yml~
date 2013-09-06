@@ -133,7 +133,7 @@ en:
 
     save: "変更を保存"
     saving: "保存して..."
-    saved: "保存した!"
+    saved: "保存しました"
 
     upload: "アップロード"
     uploading: "アップロードする..."
@@ -243,7 +243,7 @@ en:
       username:
         title: "ユーザーID"
         instructions: "ユーザーIDは半角英数のみ利用可能です。"
-        short_instructions: "他人は@{{username}}が含まれていると通知されます。"
+        short_instructions: "トピック内で@{{username}}が含まれていると通知されます。"
         available: "OK"
         global_match: "メールは登録されたユーザ名と一致する"
         global_mismatch: "既に登録した。{{suggestion}}を試しください"
@@ -320,7 +320,7 @@ en:
         title: "最後IPアドレス"
       avatar:
         title: "アイコン"
-        instructions: "メールアドレスの基づいて、アイコンはGravatarが使用されます"
+        instructions: "メールアドレスに基づいて、アイコンはGravatarが使用されます"
       title:
         title: "タイトル"
 
@@ -657,7 +657,7 @@ en:
         delete: "削除する"
         open: "トピックをオープン"
         close: "トピックを閉じる"
-        auto_close: "自動クローズ"
+        auto_close: "自動閉じる"
         unpin: "トピックをアンピン"
         pin: "トピックをピン"
         unarchive: "トピックをアンアーカイブ"
