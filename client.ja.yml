@@ -358,7 +358,7 @@ en:
 
     private_message_info:
       title: "プライベートメッセージ"
-      invite: "他のユーザーを招待..."
+      invite: "他のユーザーを招待する..."
 
     email: 'メール'
     username: 'ユーザー名'
@@ -367,7 +367,7 @@ en:
     trust_level: '信頼 レベル'
 
     create_account:
-      title: "アカウントを作成"
+      title: "アカウントを作成する"
       action: "新規作成"
       invite: "アカウントを"
       failed: "エラーが発生した。このメールは既に登録された。パスワードを忘れた場合のリンクを試してください。"
