@@ -695,8 +695,8 @@ en:
   topic_statuses:
     archived_enabled: "This topic is now archived. It is frozen and cannot be changed in any way."
     archived_disabled: "This topic is now unarchived. It is no longer frozen, and can be changed."
-    closed_enabled: "This topic is now closed. New replies are no longer allowed."
-    closed_disabled: "This topic is now opened. New replies are allowed."
+    closed_enabled: "このトピックは終了しました。"
+    closed_disabled: "このトピックでは、現在開いている。"
     autoclosed_enabled:
       zero: "This topic was automatically closed after 1 day. New replies are no longer allowed."
       one: "This topic was automatically closed after 1 day. New replies are no longer allowed."
@@ -736,17 +736,17 @@ en:
   invite_mailer:
     subject_template: "[%{site_name}] %{invitee_name} さんがあなたを招待しています"
     text_body_template: |
-      %{invitee_name}さんが3Dプリンターのコミュニティ掲示板『%{site_name}』の "%{topic_title}" を見てほしいと言っています.
+      %{invitee_name}さんが3Dプリンターのコミュニティ掲示板『%{site_name}』の "%{topic_title}" を見てほしいと言っています.<br>
      
 
 
-        ※見るだけなら会員登録は必要ありません。
-        ※返信には会員登録が必要です。
-          ※このメールにお心当たりがない場合は、そのまま削除してください
-      ---
-      ミツプリ
-      http://meets3dprint.com/
-      e-mail：contact@3d-printer-studio.com
+        ※見るだけなら会員登録は必要ありません。<br>
+        ※返信には会員登録が必要です。<br>
+          ※このメールにお心当たりがない場合は、そのまま削除してください<br>
+      ---------------------------------------------------------<br>
+      ミツプリ<br>
+      http://meets3dprint.com/<br>
+      e-mail：contact@3d-printer-studio.com<br>
 
       [1]: %{invite_link}
 
