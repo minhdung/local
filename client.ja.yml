@@ -32,7 +32,7 @@ en:
           one: "1分以内"
           other: "< %{count}1分以内"
         x_minutes:
-          one: "1分"
+          one: "1分前"
           other: "%{count}分前"
         about_x_hours:
           one: "1時間"
