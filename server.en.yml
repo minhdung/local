@@ -736,14 +736,14 @@ en:
   invite_mailer:
     subject_template: "[%{site_name}] %{invitee_name} さんがあなたを招待しています"
     text_body_template: |
-      %{invitee_name}さんが3Dプリンターのコミュニティ掲示板『%{site_name}』の "%{topic_title}" を見てほしいと言っています.<br><br><br>
+      %{invitee_name}さんが3Dプリンターのコミュニティ掲示板『%{site_name}』の "%{topic_title}" を見てほしいと言っています.<br><br>
      
 
 
         ※見るだけなら会員登録は必要ありません。<br>
         ※返信には会員登録が必要です。<br>
-          ※このメールにお心当たりがない場合は、そのまま削除してください<br>
-      ---------------------------------------------------------<br>
+          ※このメールにお心当たりがない場合は、そのまま削除してください<br><br>
+      --<br>
       ミツプリ<br>
       http://meets3dprint.com/<br>
       e-mail：contact@3d-printer-studio.com<br>

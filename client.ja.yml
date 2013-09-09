@@ -425,12 +425,12 @@ en:
       drafts_offline: "オフラインドラフト"
 
       min_length:
-        need_more_for_title: "タイトルになるため{{n}} が必要だ"
+        need_more_for_title: "タイトルはあと{{n}}文字必要です"
         need_more_for_reply: "トピックを作成するにはあと{{n}} 文字必要です"
 
       error:
         title_missing: "タイトルは必須です"
-        title_too_short: "本文は少なくとも{{min}}文字の長さが必要だ"
+        title_too_short: "タイトルは{{min}}文字以上が必要です"
         title_too_long: "タイトルは{{max}}文字未満でなければならない"
         post_missing: "本文は必須です"
         post_length: "本文は{{min}}文字以上が必要です"
@@ -852,11 +852,11 @@ en:
             one: "あなたと他人の一人はこの記事をブックマークした"
             other: "あなたと他人の{{count}}人はこの記事をブックマークした"
           like:
-            one: "あなたと他人の一人がいいね！と言っています。"
+            one: "あなたと他一人がいいね！と言っています。"
             other: "あなたと他人の{{count}}人はいいね！と言っています。"
           vote:
             one: "あなたと他人の一人はこの記事に投票した"
-            other: "あなたと他人の{{count}}人がいいね！と言っています"
+            other: "あなたと他{{count}}人がいいね！と言っています"
         by_others:
           off_topic:
             one: "一人は関連性がないとしてこれにフラグを付けた"
