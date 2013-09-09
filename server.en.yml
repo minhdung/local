@@ -150,8 +150,8 @@ en:
       one: "1 時間"
       other: "%{count} 時間"
     minutes:
-      one: "1 分"
-      other: "%{count}分"
+      one: "1 分間"
+      other: "%{count}分間"
     seconds:
       one: "1秒"
       other: "%{count}秒"
