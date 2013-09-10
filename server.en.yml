@@ -736,7 +736,7 @@ en:
   invite_mailer:
     subject_template: "[%{site_name}] %{invitee_name} さんがあなたを招待しています"
     text_body_template: |
-      %{invitee_name}さんが3Dプリンターのコミュニティ掲示板『%{site_name}』の "%{topic_title}" を見てほしいと言っています.<br>
+      %{invitee_name}さんが3Dプリンターのコミュニティ掲示板『%{site_name}』の "%{topic_title}" を見てほしいと言っています。<br>
 
       [%{invite_link}][1]<br>
 
