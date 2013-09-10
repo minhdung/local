@@ -126,8 +126,8 @@ en:
       not_bookmarked: "ブックマーク"
       last_read: "これは最新読んだ記事で、ブックマークのためクリックしたください。"
 
-    new_topics_inserted: "{{count}} 新しいトピック."
-    show_new_topics: "見せるために、クリックしてください."
+    new_topics_inserted: "新しいトピックがあります。"
+    show_new_topics: "こちらをクリックして更新してください。"
     preview: "プレビュー"
     cancel: "キャンセル"
 
