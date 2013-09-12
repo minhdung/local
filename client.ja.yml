@@ -751,7 +751,7 @@ en:
       quote_reply: "返信を引用"
       edit: "{{replyAvatar}} {{username}}によって{{link}}を編集"
       post_number: "{{number}}記事"
-      in_reply_to: "へ返信して"
+      in_reply_to: ""
       last_edited_on: "最後の編集を投稿"
       reply_as_new_topic: ""
       continue_discussion: "{{postLink}}:から議論を続ける"
@@ -759,7 +759,7 @@ en:
       deleted_by_author:
         one: "(作成者によって撤回される記事はフラグが付けられていなければ、自動的に%{count} 時間で削除される)"
         other: "(作成者によって撤回される記事はフラグが付けられていなければ、自動的に%{count} 時間で削除される)"
-      deleted_by: "によって削除された"
+      deleted_by: "削除しました"
       expand_collapse: "展開/折りたたみ"
 
       has_replies:
