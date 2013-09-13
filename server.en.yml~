@@ -13,7 +13,7 @@ en:
     formats:
       short: "%Y/%M/%D"
       short_no_year: "%Y/%M/%D"
-      date_only: "YYYY/M/D"
+      date_only: "%Y/%M/%D"
 
   title: "タイトル"
   topics: "トピックス"
