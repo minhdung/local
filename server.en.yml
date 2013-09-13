@@ -11,9 +11,9 @@ en:
     long_date: "D/M/YYYY"
   time:
     formats:
-      short: "YYYY/M/D"
-      short_no_year: "YYYY/M/D"
-      date_only: "YYYY/M/D"
+      short: "%Y/%M/%D"
+      short_no_year: "%Y/%M/%D"
+      date_only: "%Y/%M/%D"
 
   title: "タイトル"
   topics: "トピックス"
