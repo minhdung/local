@@ -8,12 +8,12 @@ en:
   dates:
     short_date_no_year: "M/D"
     short_date: "D/M/YYYY"
-    long_date: "MMMM D, YYYY h:mma"
+    long_date: "D/M/YYYY"
   time:
     formats:
-      short: "%m-%d-%Y"
-      short_no_year: "%B %-d"
-      date_only: "%b %-d, %Y"
+      short: "YYYY/M/D"
+      short_no_year: "YYYY/M/D"
+      date_only: "YYYY/M/D"
 
   title: "タイトル"
   topics: "トピックス"
@@ -936,16 +936,16 @@ en:
 
         You can now create new replies and topics again.
 
-  unsubscribe_link: "To unsubscribe from these emails, visit your [user preferences](%{user_preferences_url})."
+  unsubscribe_link: "更新メールを受け取りたくない場合は[こちら](%{user_preferences_url})からプロフィールを編集してください。."
 
   user_notifications:
-    previous_discussion: "Previous Replies"
+    previous_discussion: "参加トピック"
     unsubscribe:
       title: "Unsubscribe"
       description: "Not interested in getting these emails? No problem! Click below to unsubscribe instantly:"
 
     reply_by_email: "To respond, reply to this email or visit %{base_url}%{url} in your browser."
-    visit_link_to_respond: "To respond, visit %{base_url}%{url} in your browser."
+    visit_link_to_respond: "%{base_url}%{url}"
 
     posted_by: "Posted by %{username} on %{post_date}"
 
@@ -987,7 +987,7 @@ en:
         %{respond_instructions}
 
     user_posted:
-      subject_template: "[%{site_name}] %{subject_prefix}new post in '%{topic_title}'"
+      subject_template: "[%{site_name}] 新しい投稿があります  "
       text_body_template: |
         %{message}
 

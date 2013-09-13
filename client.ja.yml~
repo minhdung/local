@@ -264,12 +264,12 @@ en:
       website: ""
       email_settings: "メール"
       email_digests:
-        title: ""
+        title: "新しい投稿がある場合は定期的にメールでお知らせする。"
         daily: "日々"
         weekly: "毎週"
         bi_weekly: "隔週"
 
-      email_direct: ""
+      email_direct: "返信や引用や@ユーザーIDがある場合はメールでお知らせする。"
       email_private_messages: ""
 
       other_settings: ""
