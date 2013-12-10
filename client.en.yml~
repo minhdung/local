@@ -8,8 +8,12 @@ https://github.com/minhdung/local.gitaaaaaaaaaaaaaaaaaaaaaaaa
 # http://yamllint.com/
 
 
+<<<<<<< HEAD
 8a3879336370f552aa333a7a54f09429fa9af11d8a3879336370f552aa333a7a54f09429fa9af11d8a3879336370f552aa333a7a54f09429fa9af11d8a3879336370f552aa333a7a54f09429fa9af11d
 
+=======
+https://github.com/minhdung/local.githttps://github.com/minhdung/local.githttps://github.com/minhdung/local.githttps://github.com/minhdung/local.githttps://github.com/minhdung/local.githttps://github.com/minhdung/local.githttps://github.com/minhdung/local.githttps://github.com/minhdung/local.git
+>>>>>>> 008cd68... task 2
 en:
   js:
     number:
